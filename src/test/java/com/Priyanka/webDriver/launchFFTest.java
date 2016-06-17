@@ -9,7 +9,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 /**
  * Created by Priyanka on 6/16/2016.
  */
-public class myFirstTest {
+public class launchFFTest {
     @Test
     public void startWebDriver() {
         System.setProperty("webdriver.firefox.bin","C:\\Program Files\\Mozilla Firefox\\firefox.exe");
