@@ -12,12 +12,17 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class myFirstTest {
     @Test
     public void startWebDriver() {
-        System.setProperty("webdriver.firefox.bin","C:\\Program Files\\Mozilla Firefox\\firefox.exe");
+        //System.setProperty("webdriver.firefox.bin","C:\\Program Files\\Mozilla Firefox\\firefox.exe");
         WebDriver driver = new FirefoxDriver();
         try {
-            driver.get("https://www.flipkart.com/");
-            driver.findElement(By.className("LM6RPg")).sendKeys("Dell");
-            driver.findElement(By.className("vh79eN")).click();
+            driver.manage().window().maximize();     // Used to maximise windows
+                                                     // Some elements of web page are hidden if the window
+                                                     // is not maximized. In order to avoid that, it is always
+                                                     // a good practice to maximise the window.
+            driver.get("https://www.amazon.com/");   // Navigate to Specific URL
+
+            driver.findElement(By.id("twotabsearchtextbox")).sendKeys("Dell");
+            driver.findElement(By.className("nav-input")).click();
         } catch (WebDriverException we) {
             System.out.println("--- WebDriver Exception  ---");
             we.printStackTrace();
