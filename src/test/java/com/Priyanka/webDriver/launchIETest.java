@@ -14,8 +14,8 @@ public class launchIETest {
     public void launchIEBrowser() {
         System.setProperty("webdriver.ie.driver","C:\\webDrivers\\IEDriverServer.exe");
         WebDriver driver = new InternetExplorerDriver();
-        driver.manage().window().maximize();
         try {
+            driver.manage().window().maximize();
             driver.get("https://www.amazon.com");
             driver.findElement(By.id("twotabsearchtextbox")).sendKeys("Dell");
             driver.findElement(By.className("nav-input")).click();
