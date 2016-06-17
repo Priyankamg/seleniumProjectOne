@@ -12,7 +12,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class myFirstTest {
     @Test
     public void startWebDriver() {
-        //System.setProperty("webdriver.firefox.bin","C:\\Program Files\\Mozilla Firefox\\firefox.exe");
+        System.setProperty("webdriver.firefox.bin","C:\\Program Files\\Mozilla Firefox\\firefox.exe");
         WebDriver driver = new FirefoxDriver();
         try {
             driver.manage().window().maximize();     // Used to maximise windows
