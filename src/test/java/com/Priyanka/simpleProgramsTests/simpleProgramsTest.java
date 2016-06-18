@@ -53,5 +53,7 @@ public class simpleProgramsTest {
         assertFalse(objCompareFirstLastTwoChars.areFirstLast2CharsSame("PQP"));
         assertTrue(objCompareFirstLastTwoChars.areFirstLast2CharsSame("lmabcdelm"));
         assertTrue(objCompareFirstLastTwoChars.areFirstLast2CharsSame(""));
+        assertTrue(true);
+        assertFalse(false);
     }
 }
