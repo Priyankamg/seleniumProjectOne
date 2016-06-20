@@ -1,4 +1,4 @@
-package com.Priyanka.webDriver;
+package com.Priyanka.launchBrowsers;
 
 import org.junit.Test;
 import org.openqa.selenium.By;

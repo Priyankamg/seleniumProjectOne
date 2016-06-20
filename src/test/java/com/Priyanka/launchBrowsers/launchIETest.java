@@ -1,20 +1,20 @@
-package com.Priyanka.webDriver;
+package com.Priyanka.launchBrowsers;
 
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 
 /**
- * Created by Priyanka on 6/16/2016.
+ * Created by Priyanka on 6/17/2016.
  */
-public class launchChromeTest {
+public class launchIETest {
     @Test
-    public void startChrome() {
-        //System.setProperty("webdriver.chrome.driver","C:\\webDrivers\\chromedriver.exe");
-        System.setProperty("webdriver.chrome.driver","src/main/java/com/Priyanka/webDrivers/chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
+    public void launchIEBrowser() {
+        //System.setProperty("webdriver.ie.driver","C:\\webDrivers\\IEDriverServer.exe");
+        System.setProperty("webdriver.ie.driver","src/main/java/com/Priyanka/webDrivers/IEDriverServer.exe");
+        WebDriver driver = new InternetExplorerDriver();
         try {
             driver.manage().window().maximize();
             driver.get("https://www.amazon.com");
