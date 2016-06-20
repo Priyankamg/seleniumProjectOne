@@ -12,7 +12,8 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 public class launchIETest {
     @Test
     public void launchIEBrowser() {
-        System.setProperty("webdriver.ie.driver","C:\\webDrivers\\IEDriverServer.exe");
+        //System.setProperty("webdriver.ie.driver","C:\\webDrivers\\IEDriverServer.exe");
+        System.setProperty("webdriver.ie.driver","src/main/java/com/Priyanka/webDrivers/IEDriverServer.exe");
         WebDriver driver = new InternetExplorerDriver();
         try {
             driver.manage().window().maximize();

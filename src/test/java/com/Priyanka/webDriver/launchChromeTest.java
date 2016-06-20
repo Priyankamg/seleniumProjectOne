@@ -12,7 +12,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class launchChromeTest {
     @Test
     public void startChrome() {
-        System.setProperty("webdriver.chrome.driver","C:\\webDrivers\\chromedriver.exe");
+        //System.setProperty("webdriver.chrome.driver","C:\\webDrivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","src/main/java/com/Priyanka/webDrivers/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         try {
             driver.manage().window().maximize();
