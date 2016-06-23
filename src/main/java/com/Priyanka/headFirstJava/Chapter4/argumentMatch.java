@@ -1,4 +1,4 @@
-package com.Priyanka.headFirstJava;
+package com.Priyanka.headFirstJava.Chapter4;
 
 /**
  * Created by Priyanka on 6/23/2016.
@@ -10,7 +10,6 @@ public class argumentMatch {
     public boolean isFun;
 
     public void variousTypes() {
-        System.out.println("The value of num before: " + num);
         System.out.println(name + " " + ch + " " + " " + isFun);
         num = num + Integer.parseInt(name) + ch;
         System.out.println("The value of num after: " + num);

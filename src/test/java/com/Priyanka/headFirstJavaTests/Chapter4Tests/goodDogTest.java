@@ -1,6 +1,6 @@
-package com.Priyanka.headFirstJavaTests;
+package com.Priyanka.headFirstJavaTests.Chapter4Tests;
 
-import com.Priyanka.headFirstJava.goodDog;
+import com.Priyanka.headFirstJava.Chapter4.goodDog;
 
 /**
  * Created by Priyanka on 6/23/2016.

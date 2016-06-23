@@ -1,6 +1,6 @@
-package com.Priyanka.headFirstJavaTests;
+package com.Priyanka.headFirstJavaTests.Chapter4Tests;
 
-import com.Priyanka.headFirstJava.argumentMatch;
+import com.Priyanka.headFirstJava.Chapter4.argumentMatch;
 
 /**
  * Created by Priyanka on 6/23/2016.

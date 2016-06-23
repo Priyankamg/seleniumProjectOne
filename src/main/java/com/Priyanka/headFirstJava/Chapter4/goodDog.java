@@ -1,4 +1,4 @@
-package com.Priyanka.headFirstJava;
+package com.Priyanka.headFirstJava.Chapter4;
 
 /**
  * Created by Priyanka on 6/23/2016.

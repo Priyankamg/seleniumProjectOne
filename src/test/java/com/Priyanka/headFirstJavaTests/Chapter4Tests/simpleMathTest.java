@@ -1,6 +1,6 @@
-package com.Priyanka.headFirstJavaTests;
+package com.Priyanka.headFirstJavaTests.Chapter4Tests;
 
-import com.Priyanka.headFirstJava.simpleMath;
+import com.Priyanka.headFirstJava.Chapter4.simpleMath;
 
 /**
  * Created by Priyanka on 6/23/2016.
