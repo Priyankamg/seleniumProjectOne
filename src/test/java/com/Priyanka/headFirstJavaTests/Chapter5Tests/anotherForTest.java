@@ -1,6 +1,6 @@
-package com.Priyanka.headFirstJavaTests.Chapter4Tests;
+package com.Priyanka.headFirstJavaTests.Chapter5Tests;
 
-import com.Priyanka.headFirstJava.anotherFor;
+import com.Priyanka.headFirstJava.Chapter5.anotherFor;
 
 /**
  * Created by Priyanka on 6/24/2016.

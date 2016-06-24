@@ -1,7 +1,7 @@
-package com.Priyanka.headFirstJavaTests.Chapter4Tests;
+package com.Priyanka.headFirstJavaTests.Chapter5Tests;
 
-import com.Priyanka.headFirstJava.Chapter4.dotcom;
-import com.Priyanka.headFirstJava.Chapter4.playerDotCom;
+import com.Priyanka.headFirstJava.Chapter5.dotcom;
+import com.Priyanka.headFirstJava.Chapter5.playerDotCom;
 
 /**
  * Created by Priyanka on 6/24/2016.
