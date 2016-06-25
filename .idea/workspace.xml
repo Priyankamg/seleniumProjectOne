@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="894e3914-5370-41de-96a3-2dc4001d8585" name="Default" comment="" />
+    <list default="true" id="894e3914-5370-41de-96a3-2dc4001d8585" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/Priyanka/headFirstJavaTests/Chapter5Tests/simpleDotComTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/Priyanka/headFirstJavaTests/Chapter5Tests/simpleDotComTest.java" />
+    </list>
     <ignored path="seleniumProjectOne.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -60,8 +62,8 @@
       <file leaf-file-name="simpleDotComTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/headFirstJavaTests/Chapter5Tests/simpleDotComTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="50" column="66" selection-start-line="52" selection-start-column="40" selection-end-line="59" selection-end-column="0" />
+            <state relative-caret-position="566">
+              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1439,8 +1441,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/headFirstJavaTests/Chapter5Tests/simpleDotComTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="50" column="66" selection-start-line="52" selection-start-column="40" selection-end-line="59" selection-end-column="0" />
+        <state relative-caret-position="566">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
