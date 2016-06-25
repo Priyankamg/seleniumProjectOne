@@ -19,6 +19,7 @@ public class simpleDotComTest {
         int startIndex = (int) (Math.random() * 7);
         System.out.println("Start index: " + startIndex);
         int[] toGuessArr = {startIndex, startIndex + 1, startIndex + 2};
+        int[] arrObtd = new int[toGuessArr.length];
         simple.setNumArr(toGuessArr);
         while (flag == 0) {
             guessNumbers guessANum = new guessNumbers();
@@ -40,14 +41,29 @@ public class simpleDotComTest {
                 }
             }
             if (flag == 1) {
+                arrObtd[actCount] = guessANum.getNum();
                 actCount++;
+                System.out.println("-- Value of actCount is: " + actCount);
                 System.out.println("You took " + count + " number of guesses to get one of the indices right");
 
                 if(actCount==3) {
-                    System.out.println("Kill. GAME OVER.");
-                    flag = 1;
-                } else
+                    if(arrObtd[simple.getNumArr().length-1]==arrObtd[simple.getNumArr().length-2] &&
+                            arrObtd[simple.getNumArr().length-2]==arrObtd[simple.getNumArr().length-3]) {
+                        actCount = 1;
+                        flag = 0;
+                    } else if(arrObtd[simple.getNumArr().length-1]==arrObtd[simple.getNumArr().length-2] ||
+                            arrObtd[simple.getNumArr().length-2]==arrObtd[simple.getNumArr().length-3] ||
+                            arrObtd[simple.getNumArr().length-3]==arrObtd[simple.getNumArr().length-1]) {
+                        actCount = 2;
+                        System.out.println("-- Value of actCount IN IF is: " + actCount);
+                        flag = 0;
+                    } else {
+                        System.out.println("Kill. GAME OVER.");
+                        flag = 1;
+                    }
+                } else {
                     flag = 0;
+                }
             }
 
         }
