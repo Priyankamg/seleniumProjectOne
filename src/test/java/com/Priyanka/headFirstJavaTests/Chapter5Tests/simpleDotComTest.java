@@ -54,7 +54,7 @@ public class simpleDotComTest {
                     } else if(arrObtd[simple.getNumArr().length-1]==arrObtd[simple.getNumArr().length-2] ||
                             arrObtd[simple.getNumArr().length-2]==arrObtd[simple.getNumArr().length-3] ||
                             arrObtd[simple.getNumArr().length-3]==arrObtd[simple.getNumArr().length-1]) {
-                        actCount = 2;
+                        actCount = 1;
                         System.out.println("-- Value of actCount IN IF is: " + actCount);
                         flag = 0;
                     } else {
