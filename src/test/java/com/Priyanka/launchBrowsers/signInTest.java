@@ -9,7 +9,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 /**
  * Created by Priyanka on 6/27/2016.
  */
-public class signIn {
+public class signInTest {
     @Test
     public void testForSignIn() {
         System.setProperty("webdriver.firefox.bin","C:\\Program Files\\Mozilla Firefox\\firefox.exe");
