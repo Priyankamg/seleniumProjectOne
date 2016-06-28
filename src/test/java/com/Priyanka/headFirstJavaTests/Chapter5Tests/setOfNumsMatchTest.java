@@ -54,7 +54,6 @@ public class setOfNumsMatchTest {
                             arrSetFirstHit[0] = arrSet[j - 2];
                             arrSetFirstHit[1] = arrSet[j - 1];
                         }
-                        arrSet = new int[2];
                         arrSet = arrSetFirstHit;
                         numOfMissesCount = 2;
                     } else if (numOfHits == 2) {
@@ -64,7 +63,6 @@ public class setOfNumsMatchTest {
                         } else if (j == 1) {
                             arrSetSecondHit[0] = arrSet[j - 1];
                         }
-                        arrSet = new int[1];
                         arrSet = arrSetSecondHit;
                         numOfMissesCount = 1;
                     } else if (numOfHits == 3) {
