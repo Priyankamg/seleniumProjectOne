@@ -16,7 +16,7 @@ public class signIn {
         WebDriver driver = new FirefoxDriver();
         try {
             driver.manage().window().maximize();
-            driver.get("https://www.amazon.com");
+            driver.navigate().to("https://www.amazon.com"); // navigate().to is same as get. Need to understand the differences.
             driver.findElement(By.id("nav-link-yourAccount")).click();
             driver.findElement(By.id("ap_email")).sendKeys("priyankamg.test@gmail.com");
             driver.findElement(By.id("ap_password")).sendKeys("karu5%99");

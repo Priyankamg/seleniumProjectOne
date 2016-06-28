@@ -6,6 +6,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import static org.junit.Assert.assertEquals;
+
+
 /**
  * Created by Priyanka on 6/16/2016.
  */
@@ -23,12 +26,14 @@ public class launchFFTest {
 
             driver.findElement(By.id("twotabsearchtextbox")).sendKeys("Dell");
             driver.findElement(By.className("nav-input")).click();
+            String titleOfPage = driver.getTitle();
+            assertEquals("Amazon.com: Dell - Computers & Tablets / Computers & Accessories: Electronics", titleOfPage);
         } catch (WebDriverException we) {
             System.out.println("--- WebDriver Exception  ---");
             we.printStackTrace();
         }
         driver.close();
-        driver.quit();
+       // driver.quit();
     }
 
 }
