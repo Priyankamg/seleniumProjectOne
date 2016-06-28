@@ -17,19 +17,19 @@ public class implementBeforeAfterBasicTest {
 
     @Before
     public void initializeDriver() {
-        System.setProperty("webdriver.firefox.bin","C:\\Program Files\\Mozilla Firefox\\firefox.exe");
+        System.setProperty("webdriver.firefox.bin","src/main/java/com/Priyanka/Firefox42/Mozilla Firefox/firefox.exe");
         driver = new FirefoxDriver();
     }
 
     @Test
     public void  goToUrlAndSearch() {
         driver.manage().window().maximize();
-        driver.get("https://www.amazon.com");
+        driver.navigate().to("https://www.amazon.com");
         driver.findElement(By.id("twotabsearchtextbox")).sendKeys("iphone 6");
         driver.findElement(By.className("nav-input")).click();
         String titleOfPage = driver.getTitle();
-        assertEquals(titleOfPage,"Amazon.com: iphone 6: Cell Phones & Accessories");
-    }
+        assertEquals("Amazon.com: iphone 6: Cell Phones & Accessories",titleOfPage);
+}
 
     @After
     public void closeBrowser() {
