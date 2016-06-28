@@ -1,13 +1,12 @@
 package com.Priyanka.launchBrowsers;
 
 import org.junit.After;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-
-import static org.junit.Assert.assertEquals;
 
 /**
  * Created by Priyanka on 6/27/2016.
@@ -27,8 +26,7 @@ public class implementBeforeAfterBasicTest {
         driver.navigate().to("https://www.amazon.com");
         driver.findElement(By.id("twotabsearchtextbox")).sendKeys("iphone 6");
         driver.findElement(By.className("nav-input")).click();
-        String titleOfPage = driver.getTitle();
-        assertEquals("Amazon.com: iphone 6: Cell Phones & Accessories",titleOfPage);
+        Assert.assertTrue(driver.getTitle().equals("Amazon.com: iphone 6: Cell Phones & Accessories"));
 }
 
     @After
