@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 /**
  * Created by Priyanka on 6/30/2016.
  */
-public class addMustReadBookCartTest {
+public class novelPageTest {
     WebDriver driver;
 
     @Before
