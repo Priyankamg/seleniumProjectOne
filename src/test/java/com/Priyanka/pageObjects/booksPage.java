@@ -18,7 +18,7 @@ public class booksPage extends abstractPage {
     public theNewYorkTimesBestSellersPage clickOnNewYorkTimesBestSellers() {
         Assert.assertEquals("Books",driver.findElement(By.xpath("//*[@id='searchDropdownBox']/option[11]")).getText());
 
-        WebDriverWait waitUntilBookPageLoads = new WebDriverWait(driver,10);
+        WebDriverWait waitUntilBookPageLoads = new WebDriverWait(driver,5);
         waitUntilBookPageLoads.until(ExpectedConditions.presenceOfElementLocated(By.linkText("Books")));
 
         /*

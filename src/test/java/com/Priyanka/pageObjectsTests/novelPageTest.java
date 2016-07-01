@@ -24,7 +24,7 @@ public class novelPageTest extends abstractWebDriverTest {
 
     @Test
     public void addLifetimeReadBookToCart() {
-        booksPage onBooksPage = onHomePage.searchForBooks();
+        booksPage onBooksPage = onHomePage.searchFor("Books");
         theNewYorkTimesBestSellersPage onTheNewYorkTimesBestSellersPage = onBooksPage.clickOnNewYorkTimesBestSellers();
         goToASingleNovelPage onASingleNovelPage = onTheNewYorkTimesBestSellersPage.clickOnANovel();
         Assert.assertEquals(onASingleNovelPage.getSneakPeak(),"A Man Called Ove: A Novel");
