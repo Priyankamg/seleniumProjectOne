@@ -11,11 +11,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 /**
  * Created by Priyanka on 6/30/2016.
  */
-public class novelPageTest {
+public class novelPageTest extends abstractWebDriverTest {
     WebDriver driver;
 
     @Before
     public void testSetup() {
+        System.out.println("Before in novelPage");
         System.setProperty("webdriver.chrome.driver","src/main/java/com/Priyanka/webDrivers/chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
@@ -23,6 +24,7 @@ public class novelPageTest {
 
     @After
     public void testShutDown() {
+        System.out.println("After in novelPage");
         driver.close();
     }
 
