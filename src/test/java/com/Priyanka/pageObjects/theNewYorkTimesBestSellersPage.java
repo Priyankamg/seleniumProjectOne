@@ -15,7 +15,7 @@ public class theNewYorkTimesBestSellersPage extends abstractPage{
         super(driver);
     }
 
-    public goToASingleNovelPage clickOnABriefHistoryOfTime() {
+    public goToASingleNovelPage clickOnANovel() {
         WebDriverWait wait = new WebDriverWait(driver, 5);
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id='merchandised-content']/div[1]/h1/b")));
         Assert.assertEquals(driver.findElement(By.xpath("//*[@id='merchandised-content']/div[1]/h1/b")).getText(),"The New York Times Best Sellers");

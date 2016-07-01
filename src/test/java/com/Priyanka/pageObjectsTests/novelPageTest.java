@@ -5,36 +5,32 @@ import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 /**
  * Created by Priyanka on 6/30/2016.
  */
 public class novelPageTest extends abstractWebDriverTest {
-    WebDriver driver;
 
     @Before
     public void testSetup() {
+        onHomePage.navigateToWebApp();
         System.out.println("Before in novelPage");
-        System.setProperty("webdriver.chrome.driver","src/main/java/com/Priyanka/webDrivers/chromedriver.exe");
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
     }
 
     @After
     public void testShutDown() {
         System.out.println("After in novelPage");
-        driver.close();
     }
 
     @Test
     public void addLifetimeReadBookToCart() {
-        homePage onHomePage = new homePage(driver);
-        onHomePage = onHomePage.navigateToWebApp();
         booksPage onBooksPage = onHomePage.searchForBooks();
         theNewYorkTimesBestSellersPage onTheNewYorkTimesBestSellersPage = onBooksPage.clickOnNewYorkTimesBestSellers();
-        goToASingleNovelPage onASingleNovelPage = onTheNewYorkTimesBestSellersPage.clickOnABriefHistoryOfTime();
+        goToASingleNovelPage onASingleNovelPage = onTheNewYorkTimesBestSellersPage.clickOnANovel();
         Assert.assertEquals(onASingleNovelPage.getSneakPeak(),"A Man Called Ove: A Novel");
+        AddToCartPage onAddToCartPage = onASingleNovelPage.clickOnAddToCart();
+        signInPage onSignInPage = onAddToCartPage.enterFieldsToSignIn();
+        shippingAddressPage onShippingAddressPage = onSignInPage.enterEmailAddressPassword().enterShippingAddress();
+        Assert.assertEquals(onShippingAddressPage.shippingAddressText(),"Select a shipping address");
     }
 }

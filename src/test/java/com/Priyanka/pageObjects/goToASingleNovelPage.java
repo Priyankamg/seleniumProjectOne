@@ -17,6 +17,7 @@ public class goToASingleNovelPage extends abstractPage{
     }
 
     public AddToCartPage clickOnAddToCart() {
-        return new AddToCartPage();
+        driver.findElement(By.id("add-to-cart-button")).click();
+        return new AddToCartPage(driver);
     }
 }
