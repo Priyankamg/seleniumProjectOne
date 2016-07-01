@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="894e3914-5370-41de-96a3-2dc4001d8585" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/Priyanka/pageObjectsTests/novelPageTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/Priyanka/pageObjectsTests/novelPageTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/Priyanka/pageObjects/abstractPage.class" afterPath="$PROJECT_DIR$/target/test-classes/com/Priyanka/pageObjects/abstractPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="seleniumProjectOne.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,8 +37,8 @@
       <file leaf-file-name="abstractPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/pageObjects/abstractPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+            <state relative-caret-position="187">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="e#346#347#0" expanded="true" />
                 <element signature="e#382#383#0" expanded="true" />
@@ -58,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homePage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="homePage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/pageObjects/homePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            <state relative-caret-position="170">
+              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
               <folding>
                 <element signature="e#233#234#0" expanded="true" />
                 <element signature="e#262#263#0" expanded="true" />
@@ -91,11 +92,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="novelPageTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="novelPageTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/pageObjectsTests/novelPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+            <state relative-caret-position="289">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -223,9 +224,9 @@
         <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/pageObjects/booksPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/pageObjectsTests/addMustReadBookCartTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/pageObjects/theNewYorkTimesBestSellersPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/pageObjects/abstractPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/pageObjectsTests/abstractWebDriverTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/pageObjectsTests/novelPageTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/pageObjects/abstractPage.java" />
       </list>
     </option>
   </component>
@@ -887,15 +888,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="addMustReadBookCart - 2016.06.30 at 15h 54m 08s.xml">
-      <configuration name="addMustReadBookCart" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="addMustReadBookCart - 2016.06.30 at 15h 59m 09s.xml">
-      <configuration name="addMustReadBookCart" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="addMustReadBookCart - 2016.06.30 at 16h 12m 37s.xml">
-      <configuration name="addMustReadBookCart" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="addMustReadBookCartTest_addLifetimeReadBookToCart - 2016.06.30 at 16h 48m 14s.xml">
       <configuration name="addMustReadBookCartTest.addLifetimeReadBookToCart" configurationId="JUnit" />
     </history-entry>
@@ -917,6 +909,15 @@
     <history-entry file="novelPageTest - 2016.07.01 at 13h 58m 14s.xml">
       <configuration name="novelPageTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="novelPageTest - 2016.07.01 at 14h 00m 53s.xml">
+      <configuration name="novelPageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="novelPageTest - 2016.07.01 at 14h 02m 30s.xml">
+      <configuration name="novelPageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="novelPageTest - 2016.07.01 at 14h 03m 40s.xml">
+      <configuration name="novelPageTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
@@ -936,6 +937,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28091604" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -946,7 +948,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1322,18 +1323,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/pageObjectsTests/novelPageTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/pageObjects/homePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
-          <folding />
+        <state relative-caret-position="170">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding>
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/pageObjects/abstractPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        <state relative-caret-position="187">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="e#346#347#0" expanded="true" />
             <element signature="e#382#383#0" expanded="true" />
@@ -1343,14 +1347,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/pageObjects/homePage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/pageObjectsTests/novelPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding>
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="289">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
