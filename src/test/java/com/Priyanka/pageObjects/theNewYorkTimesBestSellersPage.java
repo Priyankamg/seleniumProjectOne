@@ -15,11 +15,15 @@ public class theNewYorkTimesBestSellersPage extends abstractPage{
         super(driver);
     }
 
-    public goToASingleNovelPage clickOnANovel() {
+    public void waitForNewYorkTimesPageToLoad() {
         WebDriverWait wait = new WebDriverWait(driver, 5);
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id='merchandised-content']/div[1]/h1/b")));
         Assert.assertEquals(driver.findElement(By.xpath("//*[@id='merchandised-content']/div[1]/h1/b")).getText(),"The New York Times Best Sellers");
-        driver.findElement(By.linkText("A Man Called Ove: A Novel")).click();
+    }
+
+    public goToASingleNovelPage clickOnNovel(String novelName) {
+        waitForNewYorkTimesPageToLoad();
+        clickUsingLinkText(novelName);
         return new goToASingleNovelPage(driver);
     }
 }

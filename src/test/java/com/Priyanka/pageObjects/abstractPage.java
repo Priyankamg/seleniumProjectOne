@@ -22,6 +22,10 @@ public class abstractPage {
         return driver;
     }
 
+    public void clickUsingLinkText(String linkToClickOn) {
+        driver.findElement(By.linkText(linkToClickOn)).click();
+    }
+
     public homePage navigateToWebApp() {
         driver.navigate().to("https://www.amazon.com/");
         WebDriverWait wait = new WebDriverWait(driver,2);

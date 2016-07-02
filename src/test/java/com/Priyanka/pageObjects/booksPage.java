@@ -15,11 +15,43 @@ public class booksPage extends abstractPage {
         super(driver);
     }
 
-    public theNewYorkTimesBestSellersPage clickOnNewYorkTimesBestSellers() {
+    public void waitForBooksPageToLoad() {
         Assert.assertEquals("Books",driver.findElement(By.xpath("//*[@id='searchDropdownBox']/option[11]")).getText());
 
         WebDriverWait waitUntilBookPageLoads = new WebDriverWait(driver,5);
         waitUntilBookPageLoads.until(ExpectedConditions.presenceOfElementLocated(By.linkText("Books")));
+    }
+
+    public theNewYorkTimesBestSellersPage clickOnNewYorkTimesBestSellers() {
+        waitForBooksPageToLoad();
+        clickUsingLinkText("The New York Times Best Sellers");
+        return new theNewYorkTimesBestSellersPage(driver);
+    }
+
+    public bestSellersPage clickOnBestSellers() {
+        waitForBooksPageToLoad();
+        clickUsingLinkText("Best Sellers");
+        return new bestSellersPage(driver);
+    }
+
+    public newReleasesPage clickOnNewReleases() {
+        waitForBooksPageToLoad();
+        clickUsingLinkText("New Releases");
+        return new newReleasesPage(driver);
+    }
+
+    public booksForChildrenPage clickOnBooksForChildren() {
+        waitForBooksPageToLoad();
+        clickUsingLinkText("Children's Books");
+        return new booksForChildrenPage(driver);
+    }
+
+    public textbooksPage clickOnTextBooks() {
+        waitForBooksPageToLoad();
+        clickUsingLinkText("Textbooks");
+        return new textbooksPage(driver);
+    }
+
 
         /*
         // Locate the menu to hover over
@@ -39,8 +71,4 @@ public class booksPage extends abstractPage {
         driver.findElement(By.linkText("100 Books to Read in a Lifetime")).click();
         */
 
-        driver.findElement(By.linkText("The New York Times Best Sellers")).click();
-
-        return new theNewYorkTimesBestSellersPage(driver);
-    }
 }

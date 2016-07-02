@@ -12,7 +12,7 @@ public class goToASingleNovelPage extends abstractPage{
         super(driver);
     }
 
-    public String getSneakPeak() {
+    public String getNovelTitle() {
         return driver.findElement(By.id("productTitle")).getText();
     }
 

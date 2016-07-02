@@ -9,11 +9,10 @@ import org.junit.Test;
 /**
  * Created by Priyanka on 6/30/2016.
  */
-public class novelPageTest extends abstractWebDriverTest {
+public class novelPageTest extends searchForBooksTest {
 
     @Before
     public void testSetup() {
-        onHomePage.navigateToWebApp();
         System.out.println("Before in novelPage");
     }
 
@@ -24,10 +23,10 @@ public class novelPageTest extends abstractWebDriverTest {
 
     @Test
     public void addLifetimeReadBookToCart() {
-        booksPage onBooksPage = onHomePage.searchFor("Books");
+        System.out.println("In novelPageTest");
         theNewYorkTimesBestSellersPage onTheNewYorkTimesBestSellersPage = onBooksPage.clickOnNewYorkTimesBestSellers();
-        goToASingleNovelPage onASingleNovelPage = onTheNewYorkTimesBestSellersPage.clickOnANovel();
-        Assert.assertEquals(onASingleNovelPage.getSneakPeak(),"A Man Called Ove: A Novel");
+        goToASingleNovelPage onASingleNovelPage = onTheNewYorkTimesBestSellersPage.clickOnNovel("A Man Called Ove: A Novel");
+        Assert.assertEquals(onASingleNovelPage.getNovelTitle(),"A Man Called Ove: A Novel");
         AddToCartPage onAddToCartPage = onASingleNovelPage.clickOnAddToCart();
         signInPage onSignInPage = onAddToCartPage.enterFieldsToSignIn();
         shippingAddressPage onShippingAddressPage = onSignInPage.enterEmailAddressPassword().enterShippingAddress();
