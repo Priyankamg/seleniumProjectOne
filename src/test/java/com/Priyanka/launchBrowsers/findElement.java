@@ -51,8 +51,8 @@ public class findElement {
 
     @Test
     public void testFindElementByXpathIdClassNameLinkTextPartialLinkText() {
-        driver.findElement(By.xpath("//*[@id='searchDropdownBox']/option[11]")).click();
-        Assert.assertEquals("Books",driver.findElement(By.xpath("//*[@id='searchDropdownBox']/option[11]")).getText());
+        driver.findElement(By.xpath("//option[contains(@value, 'search-alias=stripbooks')]")).click();
+        Assert.assertEquals("Books",driver.findElement(By.xpath("//option[contains(@value, 'search-alias=stripbooks')]")).getText());
         driver.findElement(By.id("twotabsearchtextbox")).sendKeys("enid blyton");
         driver.findElement(By.className("nav-input")).click();
         Assert.assertEquals("Books",driver.findElement(By.linkText("Books")).getText());
