@@ -19,7 +19,6 @@ public class abstractWebDriverTest {
         System.setProperty("webdriver.chrome.driver","src/main/java/com/Priyanka/webDrivers/chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        onHomePage = new homePage(driver);
     }
 
     @After
@@ -28,4 +27,5 @@ public class abstractWebDriverTest {
         System.out.println("--");
         driver.close();
     }
+
 }

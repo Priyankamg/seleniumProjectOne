@@ -28,7 +28,7 @@ public class novelPageTest extends searchForBooksTest {
         goToASingleNovelPage onASingleNovelPage = onTheNewYorkTimesBestSellersPage.clickOnNovel("A Man Called Ove: A Novel");
         Assert.assertEquals(onASingleNovelPage.getNovelTitle(),"A Man Called Ove: A Novel");
         AddToCartPage onAddToCartPage = onASingleNovelPage.clickOnAddToCart();
-        signInPage onSignInPage = onAddToCartPage.enterFieldsToSignIn();
+        signInPage onSignInPage = onAddToCartPage.proceedToCheckout();
         shippingAddressPage onShippingAddressPage = onSignInPage.enterEmailAddressPassword().enterShippingAddress();
         Assert.assertEquals(onShippingAddressPage.shippingAddressText(),"Select a shipping address");
     }
