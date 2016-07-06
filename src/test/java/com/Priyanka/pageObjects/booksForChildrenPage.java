@@ -23,7 +23,7 @@ public class booksForChildrenPage extends abstractPage{
 
     public booksAges3To5 clickBooksAge3To5() {
         waitForBooksForChildrenPageToLoad();
-        driver.findElement(By.xpath("//img[contains(@src,'https://images-na.ssl-images-amazon.com/images/G/01/img16/books/content-grid/4-column/34111_books_us_chp-2_content-grid_440x300.jpg')]")).click();
+        driver.findElement(By.xpath("//img[contains(@alt,'Ages 3 to 5')]")).click();
         return new booksAges3To5(driver);
     }
 
