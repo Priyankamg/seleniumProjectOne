@@ -16,7 +16,6 @@ public class booksPage extends abstractPage {
     }
 
     public void waitForBooksPageToLoad() {
-        //Assert.assertEquals("Books",driver.findElement(By.xpath("//*[@id='searchDropdownBox']/option[11]")).getText());
         Assert.assertEquals("Books",driver.findElement(By.xpath("//option[contains(@value,'search-alias=stripbooks')]")).getText());
         WebDriverWait waitUntilBookPageLoads = new WebDriverWait(driver,5);
         waitUntilBookPageLoads.until(ExpectedConditions.presenceOfElementLocated(By.linkText("Books")));
