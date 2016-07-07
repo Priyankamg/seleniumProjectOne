@@ -7,4 +7,8 @@ public class lion extends animal {
     public void makeNoise() {
         System.out.println("Roar! Roar!");
     }
+
+    public void reactionWhenAShotIsGivenByVet() {
+        System.out.println("Roooooooooooar");
+    }
 }

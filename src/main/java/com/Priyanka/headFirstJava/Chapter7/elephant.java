@@ -7,4 +7,8 @@ public class elephant extends animal {
     public void makeNoise() {
         System.out.println("Rumble! Rumble!");
     }
+
+    public void reactionWhenAShotIsGivenByVet() {
+        System.out.println("Ruuuuuumbbbble");
+    }
 }

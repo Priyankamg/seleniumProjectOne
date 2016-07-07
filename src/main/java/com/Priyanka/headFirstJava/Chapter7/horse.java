@@ -7,4 +7,8 @@ public class horse extends animal {
     public void makeNoise() {
         System.out.println("Neigh! Neigh!");
     }
+
+    public void reactionWhenAShotIsGivenByVet() {
+        System.out.println("Neeeeigh");
+    }
 }

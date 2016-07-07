@@ -7,4 +7,8 @@ public class cat extends animal {
     public void makeNoise() {
         System.out.println("Meow! Meow!");
     }
+
+    public void reactionWhenAShotIsGivenByVet() {
+        System.out.println("Meooooooooow");
+    }
 }

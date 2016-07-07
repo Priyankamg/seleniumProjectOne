@@ -8,4 +8,8 @@ public class dog extends animal {
     public void makeNoise() {
         System.out.println("Woof! Woof!");
     }
+
+    public void reactionWhenAShotIsGivenByVet() {
+        System.out.println("Whine...");
+    }
 }

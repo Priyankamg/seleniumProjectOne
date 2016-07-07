@@ -36,6 +36,9 @@ public class animal {
 
     }
 
+    public void reactionWhenAShotIsGivenByVet() {
+
+    }
     public void roam() {
 
     }
