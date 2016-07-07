@@ -43,9 +43,6 @@ public class alertNewWindow {
         alertObj.accept();
         driver.findElement(By.cssSelector("[onclick='acceptAgreement(window.self, \\'jdk-8u91-oth-JPR\\');']")).click();
         driver.findElement(By.xpath("//*[@id='jdk-8u91-oth-JPRXXXjdk-8u91-windows-x64.exe']")).click();
-
-        Alert fileCanHarmYourComp = driver.switchTo().alert();
-        System.out.println("Pop up text: " + fileCanHarmYourComp.getText());
     }
 
     @Test
