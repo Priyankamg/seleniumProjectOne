@@ -18,7 +18,7 @@ public class ArrayListMagnet {
         if(a.contains("three"))
             a.add("four");
         printAl(a);
-        
+
         if(a.indexOf("four") != 4) {
             a.add(4,"4.2");
         }
