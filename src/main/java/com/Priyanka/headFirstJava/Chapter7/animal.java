@@ -3,7 +3,7 @@ package com.Priyanka.headFirstJava.Chapter7;
 /**
  * Created by Priyanka on 7/7/2016.
  */
-public class animal {
+public abstract class animal {
     String name;
     int size;
     String foodHabit;
@@ -32,13 +32,10 @@ public class animal {
         return foodHabit;
     }
 
-    public void makeNoise() {
+    public abstract void makeNoise();
 
-    }
-
-    public void reactionWhenAShotIsGivenByVet() {
-
-    }
+    public abstract void reactionWhenAShotIsGivenByVet();
+    
     public void roam() {
 
     }
