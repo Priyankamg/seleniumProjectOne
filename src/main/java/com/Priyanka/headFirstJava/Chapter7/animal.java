@@ -35,7 +35,7 @@ public abstract class animal {
     public abstract void makeNoise();
 
     public abstract void reactionWhenAShotIsGivenByVet();
-    
+
     public void roam() {
 
     }
