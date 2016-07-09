@@ -37,6 +37,42 @@ public class animalArrayList {
 //        cat c2 = a2;
 
 
+        if(a1 instanceof dog) {
+            System.out.println("Is a1 referring to an instance of a dog? If so, it will print woof! and whiine!");
+            dog d2 = (dog) a1;
+            d2.makeNoise();
+            d2.reactionWhenAShotIsGivenByVet();
+        } else {
+            System.out.println("a1 is not an instance of a dog");
+        }
+
+        if(a1 instanceof cat) {
+            System.out.println("Is a1 referring to an instance of a cat? If so, it will print Meow and Meoooow");
+            cat c2 = (cat) a1;
+            c2.makeNoise();
+            c2.reactionWhenAShotIsGivenByVet();
+        } else {
+            System.out.println("a1 is not an instance of a cat");
+        }
+
+        if(a2 instanceof dog) {
+            System.out.println("Is a2 referring to an instance of a dog? If so, it will pring woof! and whiine!");
+            dog d3 = (dog) a2;
+            d3.makeNoise();
+            d3.reactionWhenAShotIsGivenByVet();
+        } else {
+            System.out.println("a2 is not an instance of a dog");
+        }
+
+        if(a2 instanceof cat) {
+            System.out.println("Is a2 referring to an instance of a cat? If so, it will print Meow and Meoooow");
+            cat c3 = (cat) a2;
+            c3.makeNoise();
+            c3.reactionWhenAShotIsGivenByVet();
+        } else {
+            System.out.println("a2 is not an instance of a cat");
+        }
+
 
     }
 }
