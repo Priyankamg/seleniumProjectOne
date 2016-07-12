@@ -73,13 +73,10 @@ public class propertyManager {
         return webAppUrl;
     }
 
-    public void setSignInCredentials() {
+    public void setProperties() {
+        setWebAppUrl(prop.getProperty("webapp.url"));
         setEmailAddress(prop.getProperty("emailAddress"));
         setPassword(prop.getProperty("password"));
         setUserName(prop.getProperty("username"));
-    }
-
-    public void setWebAppAddress() {
-        setWebAppUrl(prop.getProperty("webapp.url"));
     }
 }

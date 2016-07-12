@@ -16,8 +16,7 @@ public class signInTest extends abstractDriverTest {
 
     @Before
     public void setup() {
-        config.setWebAppAddress();
-        config.setSignInCredentials();
+        config.setProperties();
         driver.navigate().to(config.getWebAppUrl());
     }
 
