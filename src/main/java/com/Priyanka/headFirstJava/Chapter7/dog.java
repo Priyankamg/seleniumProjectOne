@@ -17,6 +17,10 @@ public class dog extends animal implements Pet,breed {
     }
 
     public void beFriendly() {
+        System.out.println("Value of a is: " + a);
+        System.out.println("Value of b is: " + b);
+        System.out.println("Value of c is: " + c);
+        System.out.println("Value of d is: " + d);
         System.out.println("Dogs are the friendliest creatures on the planet");
     }
 

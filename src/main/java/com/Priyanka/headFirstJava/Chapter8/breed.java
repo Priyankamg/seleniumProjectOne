@@ -4,7 +4,9 @@ package com.Priyanka.headFirstJava.Chapter8;
  * Created by Priyanka on 7/9/2016.
  */
 public interface breed {
-
+    public float c = 23.33f;
+    public char d = '1';
+    
     void whichBreed();
 
     void countryOfOrigin();

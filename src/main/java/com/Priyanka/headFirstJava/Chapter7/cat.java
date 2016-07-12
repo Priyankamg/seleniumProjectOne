@@ -17,6 +17,8 @@ public class cat extends animal implements Pet,breed {
     }
 
     public void beFriendly() {
+        System.out.println("Value of c is: " + c);
+        System.out.println("Value of d is: " + d);
         System.out.println("Cats are not all that friendly. Maybe we can train them, I do not know ;)");
     }
 
