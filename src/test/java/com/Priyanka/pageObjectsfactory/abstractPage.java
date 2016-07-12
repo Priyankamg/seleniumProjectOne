@@ -2,11 +2,12 @@ package com.Priyanka.pageObjectsfactory;
 
 import com.Priyanka.util.propertyManager;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
 
 /**
  * Created by Priyanka on 7/12/2016.
  */
-public class abstractPage {
+public class abstractPage extends pageObjects{
     protected WebDriver driver;
     propertyManager config;
 
@@ -19,6 +20,6 @@ public class abstractPage {
 
     public homePage navigateToWebApp() {
         driver.navigate().to(config.getWebAppUrl());
-        return new homePage(driver);
+        return PageFactory.initElements(driver,homePage.class);
     }
 }
