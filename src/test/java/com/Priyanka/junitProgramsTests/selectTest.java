@@ -1,5 +1,6 @@
 package com.Priyanka.junitProgramsTests;
 
+import com.Priyanka.util.webDriverScreenshot;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -13,10 +14,12 @@ import org.openqa.selenium.support.ui.WebDriverWait;
  */
 public class selectTest extends abstractDriverTest {
     Select dropDown;
+    webDriverScreenshot captureScreenshot;
 
 
     @Before
     public void setup() {
+        captureScreenshot = new webDriverScreenshot(driver);
         driver.navigate().to(config.getWebAppUrl());
         WebDriverWait wait = new WebDriverWait(driver, 5);
         wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".nav-logo-base.nav-sprite")));
@@ -28,17 +31,22 @@ public class selectTest extends abstractDriverTest {
     public void test1() {
         dropDown.selectByIndex(1);
         Assert.assertEquals(driver.findElement(By.xpath("//option[contains(@value,'search-alias=amazonfresh')]")).getText(),"Amazon Fresh");
+        captureScreenshot.captureScreenshotAndSave("Amazon Fresh");
     }
 
     @Test
     public void test2() {
         dropDown.selectByValue("search-alias=appliances");
         Assert.assertEquals(driver.findElement(By.xpath("//option[contains(@value,'search-alias=appliances')]")).getText(),"Appliances");
+        captureScreenshot.captureScreenshotAndSave("Appliances");
+
+
     }
 
     @Test
     public void test3() {
         dropDown.selectByVisibleText("Automotive");
         Assert.assertEquals(driver.findElement(By.xpath("//option[contains(@value,'search-alias=automotive')]")).getText(),"Automotive");
+        captureScreenshot.captureScreenshotAndSave("Automotive");
     }
 }
