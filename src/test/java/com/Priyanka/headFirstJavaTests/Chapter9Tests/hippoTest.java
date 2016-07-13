@@ -7,7 +7,9 @@ import com.Priyanka.headFirstJava.Chapter9.hippo;
  */
 public class hippoTest {
     public static void main(String[] args) {
-        hippo h = new hippo();
+        hippo h1 = new hippo();
+        hippo h2 = new hippo("Bangalore");
+        hippo h3 = new hippo(10);
         
     }
 }
