@@ -15,7 +15,6 @@ public class abstractPage extends pageObjects{
     public abstractPage(WebDriver driver) {
         this.driver = driver;
         config = new propertyManager();
-        config.setProperties();
     }
 
     public homePage navigateToWebApp() {

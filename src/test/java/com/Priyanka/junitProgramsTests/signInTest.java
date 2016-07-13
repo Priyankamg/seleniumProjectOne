@@ -1,4 +1,4 @@
-package com.Priyanka.simpleProgramsTests;
+package com.Priyanka.junitProgramsTests;
 
 import org.junit.Assert;
 import org.junit.Before;
@@ -16,7 +16,6 @@ public class signInTest extends abstractDriverTest {
 
     @Before
     public void setup() {
-        config.setProperties();
         driver.navigate().to(config.getWebAppUrl());
     }
 

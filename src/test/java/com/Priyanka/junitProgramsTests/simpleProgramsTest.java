@@ -1,4 +1,4 @@
-package com.Priyanka.simpleProgramsTests;
+package com.Priyanka.junitProgramsTests;
 
 import com.Priyanka.simplePrograms.areFirstAndLastTwoCharactersTheSame;
 import com.Priyanka.simplePrograms.truncateAInFirstTwoPositions;

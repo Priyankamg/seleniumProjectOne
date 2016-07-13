@@ -1,4 +1,4 @@
-package com.Priyanka.simpleProgramsTests;
+package com.Priyanka.junitProgramsTests;
 
 import org.junit.Test;
 

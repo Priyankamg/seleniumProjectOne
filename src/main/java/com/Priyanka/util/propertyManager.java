@@ -36,6 +36,10 @@ public class propertyManager {
              */
             input = new FileInputStream("src/main/java/com/Priyanka/properties/parameter.properties");
             prop.load(input); // Load - Reads a property list (key and element pairs) from the input byte stream
+            setWebAppUrl(prop.getProperty("webapp.url"));
+            setEmailAddress(prop.getProperty("emailAddress"));
+            setPassword(prop.getProperty("password"));
+            setUserName(prop.getProperty("username"));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -73,10 +77,4 @@ public class propertyManager {
         return webAppUrl;
     }
 
-    public void setProperties() {
-        setWebAppUrl(prop.getProperty("webapp.url"));
-        setEmailAddress(prop.getProperty("emailAddress"));
-        setPassword(prop.getProperty("password"));
-        setUserName(prop.getProperty("username"));
-    }
 }
