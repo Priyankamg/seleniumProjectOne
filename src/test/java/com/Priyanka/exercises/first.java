@@ -1,4 +1,4 @@
-package com.Priyanka.hackerrank;
+package com.Priyanka.exercises;
 
 import java.util.Scanner;
 
