@@ -1,4 +1,4 @@
-package com.Priyanka.exercises;
+package com.Priyanka.javaExercises;
 
 import java.util.Scanner;
 
