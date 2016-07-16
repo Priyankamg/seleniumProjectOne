@@ -9,8 +9,12 @@ import org.junit.runner.RunWith;
  */
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        format = {"pretty", "json:target/"},
-        features = {"src/main/java/com/Priyanka/cucumber"}
+        format = {"pretty", "json:target/cucumber.json"}, // Format of the report. It is json. It could be html too.
+        features = {"src/main/java/com/Priyanka/cucumber/"}
 )
+/*
+Whenever a feature file runs, this class also runs.
+It runs with the CucumberOptions mentioned above.
+ */
 public class cucumberRunner {
 }
