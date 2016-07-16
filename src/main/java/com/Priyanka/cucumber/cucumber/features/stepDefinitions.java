@@ -37,7 +37,7 @@ public class stepDefinitions {
         driver.findElement(By.cssSelector(".nav-input")).click();
         WebDriverWait wait = new WebDriverWait(driver,5);
         wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("[class='a-color-state a-text-bold']")));
-        assertThat(driver.findElement(By.cssSelector("[class='a-color-state a-text-bold']")).getText(),is(equalTo(searchForSomething)));
+        assertThat(driver.findElement(By.cssSelector("[class='a-color-state a-text-bold']")).getText(),is(equalTo("\"" + searchForSomething + "\"")));
 
     }
 
