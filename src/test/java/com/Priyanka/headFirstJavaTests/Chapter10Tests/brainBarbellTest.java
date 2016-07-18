@@ -7,6 +7,6 @@ import com.Priyanka.headFirstJava.Chapter10.brainBarbell;
  */
 public class brainBarbellTest {
     public static void main(String[] args) {
-        brainBarbell.create10instances();
+        brainBarbell.create10instances(); // Static method creating instances of a class which has a private constructor
     }
 }
