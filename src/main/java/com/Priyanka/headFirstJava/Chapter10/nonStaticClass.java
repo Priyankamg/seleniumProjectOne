@@ -5,7 +5,6 @@ package com.Priyanka.headFirstJava.Chapter10;
  */
 public class nonStaticClass {
     String title;
-    int index;
 
     public nonStaticClass(String title) {
         this.title = title;
@@ -19,5 +18,9 @@ public class nonStaticClass {
         } else {
             System.out.println("Singer not present in our list");
         }
+    }
+
+    public static void hiThere() {
+        System.out.println("There, There!");
     }
 }
