@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="894e3914-5370-41de-96a3-2dc4001d8585" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/Priyanka/headFirstJava/Chapter10/brainBarbell.java" afterPath="$PROJECT_DIR$/src/main/java/com/Priyanka/headFirstJava/Chapter10/brainBarbell.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/Priyanka/headFirstJavaTests/Chapter10Tests/brainBarbellTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/Priyanka/headFirstJavaTests/Chapter10Tests/brainBarbellTest.java" />
-    </list>
+    <list default="true" id="894e3914-5370-41de-96a3-2dc4001d8585" name="Default" comment="" />
     <ignored path="seleniumProjectOne.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -41,30 +38,6 @@
               <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="aSimpleProgram.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/javaExercises/aSimpleProgram.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="abstractDriverTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/junitProgramsTests/abstractDriverTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#696#697#0" expanded="false" />
-                <element signature="e#726#727#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -132,11 +105,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="brainBarbellTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="brainBarbellTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/headFirstJavaTests/Chapter10Tests/brainBarbellTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="player.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Priyanka/headFirstJava/Chapter10/player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+              <folding>
+                <element signature="e#763#764#0" expanded="true" />
+                <element signature="e#797#798#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="playerTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/headFirstJavaTests/Chapter10Tests/playerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="92" selection-start-line="10" selection-start-column="92" selection-end-line="10" selection-end-column="92" />
               <folding />
             </state>
           </provider>
@@ -174,8 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/pageObjectsfactory/pageObjects.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/headFirstJavaTests/Chapter9Tests/duckTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/headFirstJavaTests/Chapter9Tests/duckModifiedTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Priyanka/headFirstJava/Chapter9/duckModified.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Priyanka/headFirstJava/Chapter8/Pet.java" />
@@ -225,6 +219,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/headFirstJavaTests/Chapter10Tests/staticNonStaticClassTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Priyanka/headFirstJava/Chapter10/brainBarbell.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/headFirstJavaTests/Chapter10Tests/brainBarbellTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/headFirstJavaTests/Chapter10Tests/playerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Priyanka/headFirstJava/Chapter10/player.java" />
       </list>
     </option>
   </component>
@@ -526,31 +522,7 @@
       <recent name="C:\Users\Abhinav\IdeaProjects\seleniumProjectOne\src\main\java\com\Priyanka\webDrivers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.brainBarbellTest">
-    <configuration default="false" name="Scenario: Search for kajal (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="myFilePath" value="$PROJECT_DIR$/src/main/java/com/Priyanka/cucumber/cucumber/features/basic.feature" />
-      <option name="GLUE" value="com.Priyanka.cucumber.cucumber.features" />
-      <option name="myNameFilter" value="^Search for kajal$" />
-      <option name="myGeneratedName" value="Scenario: Search for kajal" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Search for kajal$&quot;" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="seleniumProjectOne" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.playerTest">
     <configuration default="false" name="Feature: basic (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -623,6 +595,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.Priyanka.headFirstJavaTests.Chapter10Tests.brainBarbellTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="seleniumProjectOne" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="playerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.Priyanka.headFirstJavaTests.Chapter10Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.Priyanka.headFirstJavaTests.Chapter10Tests.playerTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -889,19 +881,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Cucumber java.Scenario: Search for kajal (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Cucumber java.Feature: basic (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Application.mathfns" />
-      <item index="3" class="java.lang.String" itemvalue="Application.staticNonStaticClassTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.brainBarbellTest" />
+      <item index="0" class="java.lang.String" itemvalue="Cucumber java.Feature: basic (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Application.mathfns" />
+      <item index="2" class="java.lang.String" itemvalue="Application.staticNonStaticClassTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.brainBarbellTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.playerTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.brainBarbellTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.staticNonStaticClassTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.mathfns" />
-        <item index="3" class="java.lang.String" itemvalue="Cucumber java.Feature: basic (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Cucumber java.Scenario: Search for kajal (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Application.playerTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.brainBarbellTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.staticNonStaticClassTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.mathfns" />
+        <item index="4" class="java.lang.String" itemvalue="Cucumber java.Feature: basic (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -1033,20 +1025,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/headFirstJavaTests/Chapter8Tests/petsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Priyanka/headFirstJava/Chapter9/duck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Priyanka/headFirstJava/Chapter9/hippo1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1406,6 +1384,25 @@
         <state relative-caret-position="170">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/headFirstJavaTests/Chapter10Tests/playerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="92" selection-start-line="10" selection-start-column="92" selection-end-line="10" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Priyanka/headFirstJava/Chapter10/player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+          <folding>
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
