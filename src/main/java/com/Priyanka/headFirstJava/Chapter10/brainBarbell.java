@@ -10,6 +10,10 @@ public class brainBarbell {
         this.size = size;
     }
 
+    public void setSize(int size) {
+        this.size = size;
+    }
+
     public int getSize() {
         return size;
     }
@@ -32,7 +36,11 @@ public class brainBarbell {
             //System.out.println("Value of non-static variable is: " + size); // Not permitted as size is not static
             //System.out.println("Calling a non-static method: " + getSize()); // Not permitted as getSize is not static
         }
+    }
 
+    public static brainBarbell anInstance() {
+        brainBarbell b = new brainBarbell(10);
+        return b;
     }
 
 
