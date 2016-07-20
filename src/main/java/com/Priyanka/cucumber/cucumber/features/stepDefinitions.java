@@ -45,7 +45,7 @@ public class stepDefinitions {
     public void clickOnAProduct(String particularProduct) throws Throwable {
         driver.findElement(By.linkText(particularProduct)).click();
         WebDriverWait wait = new WebDriverWait(driver,5);
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText(particularProduct)));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText(particularProduct)));
     }
 
     @Then("^I check that I am on \"([^\"]*)\" Page$")
