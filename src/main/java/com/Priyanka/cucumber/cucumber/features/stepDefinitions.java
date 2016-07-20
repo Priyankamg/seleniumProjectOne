@@ -10,7 +10,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import static org.hamcrest.CoreMatchers.containsString;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
 import static org.hamcrest.core.IsEqual.equalTo;
@@ -45,12 +44,12 @@ public class stepDefinitions {
     public void clickOnAProduct(String particularProduct) throws Throwable {
         driver.findElement(By.linkText(particularProduct)).click();
         WebDriverWait wait = new WebDriverWait(driver,5);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText(particularProduct)));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("productTitle")));
     }
 
     @Then("^I check that I am on \"([^\"]*)\" Page$")
     public void checkWhetherIAmOnTheRightPage(String particularProductPage) throws Throwable {
-        assertThat(driver.findElement(By.id("#productTitle")).getText(),containsString(particularProductPage));
+        assertThat(driver.findElement(By.id("productTitle")).getText(),is(equalTo(particularProductPage)));
         driver.close();
     }
 
