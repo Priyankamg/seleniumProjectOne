@@ -1,4 +1,4 @@
-package com.Priyanka.cucumber.cucumber.features;
+package com.Priyanka.cucumber.features;
 
 import com.Priyanka.util.propertyManager;
 import cucumber.api.java.en.Given;
@@ -52,6 +52,4 @@ public class stepDefinitions {
         assertThat(driver.findElement(By.id("productTitle")).getText(),is(equalTo(particularProductPage)));
         driver.close();
     }
-
-
 }
