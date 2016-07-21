@@ -18,7 +18,9 @@ public class cssSelectorTest {
 
     @Before
     public void testSetup() {
-        System.setProperty("webdriver.chrome.driver","C:\\Program Files (x86)\\Jenkins\\workspace\\BasicTests\\src\\main\\java\\com\\Priyanka\\webDrivers\\chromedriver.exe");
+       // System.setProperty("webdriver.chrome.driver","C:\\Program Files (x86)\\Jenkins\\workspace\\BasicTests\\src\\main\\java\\com\\Priyanka\\webDrivers\\chromedriver.exe");
+        System.setProperty("webdriver.firefox.bin","src\\main\\java\\com\\Priyanka\\Firefox42\\Mozilla Firefox\\firefox.exe");
+
         //
         // System.setProperty("webdriver.chrome.driver","src\\main\\java\\com\\Priyanka\\webDrivers\\chromedriver.exe");
         driver = new ChromeDriver();
