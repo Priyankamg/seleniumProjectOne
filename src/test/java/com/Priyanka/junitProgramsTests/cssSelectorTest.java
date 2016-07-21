@@ -6,7 +6,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -18,12 +18,12 @@ public class cssSelectorTest {
 
     @Before
     public void testSetup() {
-       // System.setProperty("webdriver.chrome.driver","C:\\Program Files (x86)\\Jenkins\\workspace\\BasicTests\\src\\main\\java\\com\\Priyanka\\webDrivers\\chromedriver.exe");
-        System.setProperty("webdriver.firefox.bin","src\\main\\java\\com\\Priyanka\\Firefox42\\Mozilla Firefox\\firefox.exe");
+        System.setProperty("webdriver.ie.driver","C:\\Program Files (x86)\\Jenkins\\workspace\\BasicTests\\src\\main\\java\\com\\Priyanka\\webDrivers\\IEDriverServer.exe");
+        //System.setProperty("webdriver.firefox.bin","src\\main\\java\\com\\Priyanka\\Firefox42\\Mozilla Firefox\\firefox.exe");
 
         //
         // System.setProperty("webdriver.chrome.driver","src\\main\\java\\com\\Priyanka\\webDrivers\\chromedriver.exe");
-        driver = new FirefoxDriver();
+        driver = new InternetExplorerDriver();
         driver.manage().window().maximize();
         driver.navigate().to("https://www.amazon.com");
     }
