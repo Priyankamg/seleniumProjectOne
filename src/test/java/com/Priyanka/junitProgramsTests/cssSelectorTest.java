@@ -19,10 +19,6 @@ public class cssSelectorTest {
     @Before
     public void testSetup() {
         System.setProperty("webdriver.ie.driver","C:\\Program Files (x86)\\Jenkins\\workspace\\BasicTests\\src\\main\\java\\com\\Priyanka\\webDrivers\\IEDriverServer.exe");
-        //System.setProperty("webdriver.firefox.bin","src\\main\\java\\com\\Priyanka\\Firefox42\\Mozilla Firefox\\firefox.exe");
-
-        //
-        // System.setProperty("webdriver.chrome.driver","src\\main\\java\\com\\Priyanka\\webDrivers\\chromedriver.exe");
         driver = new InternetExplorerDriver();
         driver.manage().window().maximize();
         driver.navigate().to("https://www.amazon.com");
@@ -30,28 +26,16 @@ public class cssSelectorTest {
 
     @After
     public void testShutDown() throws InterruptedException {
-
-        if(driver!=null)
         driver.close();
-    else{
-            Thread.sleep(10000);
-           try {
-                driver.close();
-            }
-            catch (NullPointerException e){
-                e.printStackTrace();
-            }
-
-        }
-
-
+        driver.quit();
     }
 
     @Test
     public void clickElementsUsingCss() {
+
         // To find an element using Id attribute in CSS, use #
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("laundry brush");
-            System.out.println("navigated to laundry");
+        
         // To find an element using class attribute in CSS, use .
         driver.findElement(By.cssSelector(".nav-input")).click();
         WebDriverWait wait = new WebDriverWait(driver, 5);
