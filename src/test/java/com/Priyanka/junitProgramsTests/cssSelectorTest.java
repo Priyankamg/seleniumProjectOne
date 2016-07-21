@@ -35,7 +35,7 @@ public class cssSelectorTest {
 
         // To find an element using Id attribute in CSS, use #
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("laundry brush");
-        
+
         // To find an element using class attribute in CSS, use .
         driver.findElement(By.cssSelector(".nav-input")).click();
         WebDriverWait wait = new WebDriverWait(driver, 5);
