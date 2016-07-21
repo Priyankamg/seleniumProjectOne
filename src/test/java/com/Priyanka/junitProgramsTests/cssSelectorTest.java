@@ -18,7 +18,7 @@ public class cssSelectorTest {
 
     @Before
     public void testSetup() {
-        System.setProperty("webdriver.chrome.driver","src/main/java/com/Priyanka/webDrivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","src\\main\\java\\com\\Priyanka\\webDrivers\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.navigate().to("https://www.amazon.com");
