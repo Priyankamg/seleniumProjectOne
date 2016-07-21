@@ -6,7 +6,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -23,7 +23,7 @@ public class cssSelectorTest {
 
         //
         // System.setProperty("webdriver.chrome.driver","src\\main\\java\\com\\Priyanka\\webDrivers\\chromedriver.exe");
-        driver = new ChromeDriver();
+        driver = new FirefoxDriver();
         driver.manage().window().maximize();
         driver.navigate().to("https://www.amazon.com");
     }
