@@ -9,7 +9,14 @@ public class primitiveWrapper {
 
     public static void main(String[] args) {
         primitiveWrapper pw = new primitiveWrapper();
-        pw.go();
+        try {
+            pw.go();
+        } catch (NullPointerException ne) {
+            System.out.println("Integer is an object. Default value is null.");
+            System.out.println("integer is a primitive. Assigning an object to a primitive is possible.");
+            System.out.println("However, if the object is null, a null pointer exception is thrown");
+        }
+
     }
 
     public void go() {
