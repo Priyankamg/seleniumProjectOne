@@ -14,7 +14,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
  * Created by Priyanka on 7/6/2016.
  */
 public class cssSelectorTest {
-    private WebDriver driver;
+    private static WebDriver driver;
 
     @Before
     public void testSetup() {
