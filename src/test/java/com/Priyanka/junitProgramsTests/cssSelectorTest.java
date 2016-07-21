@@ -27,15 +27,29 @@ public class cssSelectorTest {
     }
 
     @After
-    public void testShutDown() {
+    public void testShutDown() throws InterruptedException {
+
+        if(driver!=null)
         driver.close();
+    else{
+            Thread.sleep(10000);
+           try {
+                driver.close();
+            }
+            catch (NullPointerException e){
+                e.printStackTrace();
+            }
+
+        }
+
+
     }
 
     @Test
     public void clickElementsUsingCss() {
         // To find an element using Id attribute in CSS, use #
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("laundry brush");
-        
+            System.out.println("navigated to laundry");
         // To find an element using class attribute in CSS, use .
         driver.findElement(By.cssSelector(".nav-input")).click();
         WebDriverWait wait = new WebDriverWait(driver, 5);
