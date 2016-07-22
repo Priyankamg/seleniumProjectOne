@@ -1,6 +1,7 @@
 package com.Priyanka.cucumber.features;
 
 import com.Priyanka.util.propertyManager;
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -50,6 +51,11 @@ public class stepDefinitions {
     @Then("^I check that I am on \"([^\"]*)\" Page$")
     public void checkWhetherIAmOnTheRightPage(String particularProductPage) throws Throwable {
         assertThat(driver.findElement(By.id("productTitle")).getText(),is(equalTo(particularProductPage)));
+
+    }
+
+    @And("^I close the browser$")
+    public void closeTheBrowser() throws Throwable {
         driver.close();
     }
 }
