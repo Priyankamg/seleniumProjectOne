@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="894e3914-5370-41de-96a3-2dc4001d8585" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/Priyanka/cucumber/features/basic.feature" afterPath="$PROJECT_DIR$/src/main/java/com/Priyanka/cucumber/features/basic.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/Priyanka/cucumber/features/stepDefinitions.java" afterPath="$PROJECT_DIR$/src/main/java/com/Priyanka/cucumber/features/stepDefinitions.java" />
     </list>
     <ignored path="seleniumProjectOne.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,8 +80,8 @@
       <file leaf-file-name="basic.feature" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Priyanka/cucumber/features/basic.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+            <state relative-caret-position="408">
+              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -212,8 +211,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/headFirstJavaTests/Chapter11Tests/arithmeticException.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/headFirstJavaTests/Chapter11Tests/numberformatexception.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/headFirstJavaTests/Chapter11Tests/indexOutOfBounds.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Priyanka/cucumber/features/basic.feature" />
         <option value="$PROJECT_DIR$/src/main/java/com/Priyanka/cucumber/features/stepDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Priyanka/cucumber/features/basic.feature" />
       </list>
     </option>
   </component>
@@ -1341,8 +1340,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Priyanka/cucumber/features/basic.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        <state relative-caret-position="408">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
           <folding />
         </state>
       </provider>
