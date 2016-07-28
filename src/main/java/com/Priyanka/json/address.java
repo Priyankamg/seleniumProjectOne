@@ -3,7 +3,7 @@ package com.Priyanka.json;
 /**
  * Created by Priyanka on 7/27/2016.
  */
-public class address {
+public class Address {
     private String streetAddress;
     private String city;
     private String state;

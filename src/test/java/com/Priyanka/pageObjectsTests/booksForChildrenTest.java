@@ -31,6 +31,6 @@ public class booksForChildrenTest extends searchForBooksTest {
         signInPage onSignInPage = onAddToCartPage.proceedToCheckout();
         onSignInPage = onSignInPage.enterEmailAddressPassword();
         shippingAddressPage onShippingAddressPage = onSignInPage.enterShippingAddress();
-        Assert.assertEquals(onShippingAddressPage.shippingAddressText(),"Select a shipping address");
+        Assert.assertEquals(onShippingAddressPage.shippingAddressText(),"Select a shipping Address");
     }
 }
