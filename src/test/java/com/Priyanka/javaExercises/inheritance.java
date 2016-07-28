@@ -18,6 +18,12 @@ public class inheritance {
         }
 
         student stu = new student(firstName,lastName,idNumber,scores);
+        student stu2 = stu;
+        if(stu2==stu) {
+            System.out.println("student 2 obj equals stu obj");
+        } else {
+            System.out.println("student 2 obj does not equal stu obj");
+        }
         stu.printPerson();
         System.out.println("Grade: " + stu.calculate());
     }
