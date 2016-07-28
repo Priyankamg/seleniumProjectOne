@@ -8,28 +8,6 @@ public class User {
     private String gender;
     private Name name;
 
-    public class Name {
-        private String first;
-        private String last;
-
-        public void setFirst(String first) {
-            this.first = first;
-        }
-
-        public String getFirst() {
-            return first;
-        }
-
-        public void setLast(String last) {
-            this.last = last;
-        }
-
-        public String getLast() {
-            return last;
-        }
-    }
-
-
     public void setGender(String gender) {
         this.gender = gender;
     }
