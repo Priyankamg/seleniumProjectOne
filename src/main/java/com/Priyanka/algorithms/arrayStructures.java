@@ -126,4 +126,31 @@ public class arrayStructures {
         }
         System.out.println();
     }
+
+    public void selectionSort() {
+        for (int j = 0; j < arraySize; j++) {
+            int minValue = theArray[j];
+            int minValuePos = j;
+            for (int i = j; i < (arraySize - 1); i++) {
+                if (minValue > theArray[i + 1]) {
+                    minValue = theArray[i + 1];
+                    minValuePos = i+1;
+                }
+            }
+            if(!(minValuePos==j))
+                swap(j,minValuePos);
+        }
+    }
+
+
+    public void insertionSort() {
+        for(int i=1; i<arraySize; i++) {
+            for(int j=i; j>0; j--) {
+                if(theArray[j]<theArray[j-1]) {
+                    swap(j, j-1);
+                }
+            }
+
+        }
+    }
 }

@@ -27,6 +27,12 @@ public class arrayStructuresTest {
         //newArr.printHorzArray();
         newArr.binarySearchForValue(18);
 
+        newArr.selectionSort();
+        newArr.printHorzArray();
+
+        newArr.insertionSort();
+        newArr.printHorzArray();
+
 
     }
 }
