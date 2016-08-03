@@ -20,5 +20,13 @@ public class arrayStructuresTest {
         newArr.printArray();
 
         System.out.println(newArr.linearSearch(12));
+        newArr.printHorzArray();
+
+        newArr.bubbleSort();
+        newArr.printHorzArray();
+        //newArr.printHorzArray();
+        newArr.binarySearchForValue(18);
+
+
     }
 }

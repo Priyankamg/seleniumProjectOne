@@ -71,4 +71,59 @@ public class arrayStructures {
         }
         return indicesWithValue;
     }
+
+    /*
+    Arrange elements in ascending order.
+    Starting from the last to the first
+     */
+    public void bubbleSort() {
+        for(int i=arraySize-1; i>0; i--) {
+            for(int j=0; j<i; j++) {
+                if(theArray[j] > theArray[j+1]) {
+                    swap(j, j+1);
+                }
+            }
+        }
+    }
+
+    public void swap(int indexOne, int indexTwo) {
+        int temp;
+        temp = theArray[indexOne];
+        theArray[indexOne] = theArray[indexTwo];
+        theArray[indexTwo] = temp;
+    }
+
+    public void binarySearchForValue(int value) {
+        //bubbleSort();
+        int lowIndex = 0;
+        int highIndex = arraySize - 1;
+        boolean elementPresent = false;
+        while(lowIndex<=highIndex) {
+            System.out.println("Low Index: " + lowIndex + " High Index: " + highIndex);
+            int middleIndex = (lowIndex+highIndex)/2;
+            if(theArray[middleIndex]<value) {
+                lowIndex = middleIndex + 1;
+            } else if(theArray[middleIndex]>value) {
+                highIndex = middleIndex - 1;
+            } else {
+                System.out.println("Found a match for " + value + " at index " + middleIndex);
+                elementPresent = true;
+                lowIndex = highIndex+1;
+            }
+        }
+        if(!elementPresent) {
+            System.out.println("The value " + value + " is not present in the array");
+        }
+    }
+
+    public void printHorzArray() {
+        for(int i=0; i<arraySize; i++) {
+            System.out.print(" | " + i );
+        }
+        System.out.println();
+        for(int i=0; i<arraySize; i++) {
+            System.out.print(" | " + theArray[i]);
+        }
+        System.out.println();
+    }
 }
