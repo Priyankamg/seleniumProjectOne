@@ -1,4 +1,4 @@
-package com.Priyanka.algorithmsPackage;
+package com.Priyanka.algorithmsTest;
 
 import com.Priyanka.algorithms.arrayStructures;
 
