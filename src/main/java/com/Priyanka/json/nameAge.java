@@ -9,8 +9,8 @@ public class nameAge {
     private String firstName;
     private String lastName;
     private int age;
-    private Address address;
-    private List<PhoneNumbers> phoneNumbers;
+    private address address;
+    private List<phoneNumbers> phoneNumbers;
 
     public void setFirstName(String firstName) {
         this.firstName = firstName;
@@ -36,19 +36,19 @@ public class nameAge {
         return age;
     }
 
-    public void setAddress(Address address) {
+    public void setAddress(address address) {
         this.address = address;
     }
 
-    public Address getAddress() {
+    public address getAddress() {
         return address;
     }
 
-    public void setPhoneNumbers(List<PhoneNumbers> phoneNumbers) {
+    public void setPhoneNumbers(List<phoneNumbers> phoneNumbers) {
         this.phoneNumbers = phoneNumbers;
     }
 
-    public List<PhoneNumbers> getPhNo() {
+    public List<phoneNumbers> getPhNo() {
         return phoneNumbers;
     }
 }
