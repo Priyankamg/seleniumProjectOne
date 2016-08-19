@@ -3,7 +3,7 @@ package com.Priyanka.json;
 /**
  * Created by Priyanka on 7/28/2016.
  */
-public class PhoneNumbers {
+public class phoneNumbers {
     private String type;
     private String number;
 
