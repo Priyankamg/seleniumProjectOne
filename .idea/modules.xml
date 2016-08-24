@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/learnPython/learnPython.iml" filepath="$PROJECT_DIR$/learnPython/learnPython.iml" />
       <module fileurl="file://$PROJECT_DIR$/seleniumProjectOne.iml" filepath="$PROJECT_DIR$/seleniumProjectOne.iml" />
     </modules>
   </component>
