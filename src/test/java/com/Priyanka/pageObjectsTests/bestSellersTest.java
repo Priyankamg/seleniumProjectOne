@@ -24,8 +24,8 @@ public class bestSellersTest extends searchForBooksTest {
     public void addABestSellerToCart() {
         System.out.println("In bestSellersTest");
         bestSellersPage onBestSellersPage = onBooksPage.clickOnBestSellers();
-        goToASingleNovelPage onGoToASingleNovelPage = onBestSellersPage.clickOnNovel("Harry Potter and the Cursed Child - Pa...");
-        Assert.assertEquals(onGoToASingleNovelPage.getNovelTitle(),"Harry Potter and the Cursed Child - Parts One & Two (Special Rehearsal Edition Script): The Official Script Book of the Original West End Production");
+        goToASingleNovelPage onGoToASingleNovelPage = onBestSellersPage.clickOnNovel("Harry Potter and the Cursed Child, Pa...");
+        Assert.assertEquals(onGoToASingleNovelPage.getNovelTitle(),"Harry Potter and the Cursed Child, Parts 1 & 2, Special Rehearsal Edition Script");
         AddToCartPage onAddToCartPage = onGoToASingleNovelPage.clickOnAddToCart();
         signInPage onSignInPage = onAddToCartPage.proceedToCheckout();
         onSignInPage = onSignInPage.enterEmailAddressPassword();
