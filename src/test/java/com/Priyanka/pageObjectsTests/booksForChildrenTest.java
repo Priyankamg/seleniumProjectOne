@@ -25,8 +25,8 @@ public class booksForChildrenTest extends searchForBooksTest {
         System.out.println("In a bookForChildrenTest");
         booksForChildrenPage onBooksForChildrenPage = onBooksPage.clickOnBooksForChildren();
         booksAges3To5 onBooksAges3To5 = onBooksForChildrenPage.clickBooksAge3To5();
-        goToASingleNovelPage onGoToASingleNovelPage = onBooksAges3To5.clickANovelForChildrenAge3To5("A Unicorn Named Sparkle");
-        Assert.assertEquals(onGoToASingleNovelPage.getNovelTitle(),"A Unicorn Named Sparkle");
+        goToASingleNovelPage onGoToASingleNovelPage = onBooksAges3To5.clickANovelForChildrenAge3To5("Quit Calling Me a Monster!");
+        Assert.assertEquals(onGoToASingleNovelPage.getNovelTitle(),"Quit Calling Me a Monster!");
         AddToCartPage onAddToCartPage = onGoToASingleNovelPage.clickOnAddToCart();
         signInPage onSignInPage = onAddToCartPage.proceedToCheckout();
         onSignInPage = onSignInPage.enterEmailAddressPassword();

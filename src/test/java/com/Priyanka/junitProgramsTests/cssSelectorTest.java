@@ -18,7 +18,7 @@ public class cssSelectorTest {
 
     @Before
     public void testSetup() {
-        System.setProperty("webdriver.ie.driver","C:\\Program Files (x86)\\Jenkins\\workspace\\BasicTests\\src\\main\\java\\com\\Priyanka\\webDrivers\\IEDriverServer.exe");
+        System.setProperty("webdriver.ie.driver","src/main/java/com/Priyanka/webDrivers/IEDriverServer.exe");
         driver = new InternetExplorerDriver();
         driver.manage().window().maximize();
         driver.navigate().to("https://www.amazon.com");
