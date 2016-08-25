@@ -16,7 +16,7 @@ public class jacksonApiTest {
     @Test
     public void testAPIAttributes() {
         ObjectMapper objectMapper  = new ObjectMapper();
-        File simpleDetailsJson = new File("src/main/java/com/Priyanka/json/simpleDetails.json");
+        File simpleDetailsJson = new File("src\\main\\java\\com\\Priyanka\\json\\simpleDetails.json");
         nameAge nameAgeObj=null;
         try {
             nameAgeObj = objectMapper.readValue(simpleDetailsJson,nameAge.class);
