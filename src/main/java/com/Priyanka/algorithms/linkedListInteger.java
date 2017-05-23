@@ -52,25 +52,18 @@ public class linkedListInteger implements linkedListOperations{
     }
 
     public void delete() {
-        int length;
         node temp;
-        temp = head;
-        if(temp.next==null) {
-            head = null;
-        } else {
-            length = 1;
-            while (temp.next != null) {
-                temp = temp.next;
-                length++;
-            }
 
-            int i = 1;
+        if(head!=null) {
             temp = head;
-            while(i != (length-1)) {
-                temp = temp.next;
-                i++;
+            if(temp.next==null) {
+                head = null;
+            } else {
+                while((temp.next).next!=null) {
+                    temp = temp.next;
+                }
+                temp.next = null;
             }
-            temp.next = null;
         }
     }
 
@@ -79,7 +72,38 @@ public class linkedListInteger implements linkedListOperations{
     }
 
     public void deleteNodeAtPosition(int position) {
+        node before, after, temp;
+        int length;
+        int numberOfNodes = 0;
 
+        if(head!=null) {
+            before = head;
+            after = head;
+            temp = head;
+            if(before.next==null) {
+                head = null;
+            } else {
+                while (temp.next!=null) {
+                    temp = temp.next;
+                    numberOfNodes++;
+                }
+                length = 0;
+                while((length+1) < (position-1)) {
+                    before = before.next;
+                    length++;
+                }
+                if(position!=numberOfNodes) {
+                    length = 0;
+                    while ((length + 1) != (position + 1)) {
+                        after = after.next;
+                        length++;
+                    }
+                    before.next = after;
+                } else {
+                    before.next = null;
+                }
+            }
+        }
     }
 
     public void printLinkedList() {

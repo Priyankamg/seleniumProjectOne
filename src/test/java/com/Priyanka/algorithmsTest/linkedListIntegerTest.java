@@ -25,5 +25,13 @@ public class linkedListIntegerTest {
         l1.delete();
         System.out.println("Linked List after deleting the last element");
         l1.printLinkedList();
+
+        l1.deleteNodeAtPosition(3);
+        System.out.println("Linked list after deleting node in between the list at position 3:");
+        l1.printLinkedList();
+
+        l1.deleteNodeAtPosition(4);
+        System.out.println("Linked List after deleting node at last position");
+        l1.printLinkedList();
     }
 }
