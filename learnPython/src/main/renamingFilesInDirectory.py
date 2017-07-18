@@ -1,7 +1,11 @@
 import os
 
-fileNames = os.listdir("/Users/prinks/Downloads/Dummy")
+dir = "/Users/prinks/Downloads/Dummy"
 
+fileNames = os.listdir(dir)
+print fileNames
+
+print "Before:"
 for i in fileNames:
     print i
 
@@ -14,4 +18,7 @@ def removeDigits(fileName):
 
 for i in fileNames:
     newFileName = removeDigits(i)
-    print newFileName
+    print dir + "/" + i
+    print dir + "/" + newFileName
+    os.rename(dir+"/"+i, dir+"/"+newFileName)
+
