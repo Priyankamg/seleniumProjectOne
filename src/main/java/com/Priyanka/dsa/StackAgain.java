@@ -15,14 +15,24 @@ public class StackAgain {
     }
 
     public void push(long element) {
-        top++;
-        stackArray[top] = element;
+        if(!isFull()) {
+            top++;
+            stackArray[top] = element;
+        } else {
+            System.out.println("The stack is full.");
+            throw new ArrayIndexOutOfBoundsException();
+        }
     }
 
     public long pop() {
-        long topmostElement = stackArray[top];
-        top--;
-        return topmostElement;
+        if(!isEmpty()) {
+            long topmostElement = stackArray[top];
+            top--;
+            return topmostElement;
+        } else {
+            System.out.println("The stack is empty.");
+            throw new ArrayIndexOutOfBoundsException();
+        }
     }
 
     public boolean isEmpty() {
