@@ -41,4 +41,8 @@ public class LinkedList {
         }
         temp.next = null;
     }
+
+    public void insertAtPosition(int number, int position) {
+
+    }
 }
