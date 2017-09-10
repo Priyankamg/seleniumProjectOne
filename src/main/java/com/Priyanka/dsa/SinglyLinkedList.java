@@ -14,7 +14,7 @@ public class SinglyLinkedList {
         NodeSinglyLinkedList node = new NodeSinglyLinkedList();
         node.data = data;
 
-        if(first!=null) {
+        if(isEmpty()) {
             node.next = first;
             first = node;
         } else {
@@ -39,7 +39,7 @@ public class SinglyLinkedList {
         NodeSinglyLinkedList node = new NodeSinglyLinkedList();
         node.data = data;
 
-        if(first != null) {
+        if(!isEmpty()) {
             NodeSinglyLinkedList temp = first;
             while (temp.next != null) {
                 temp = temp.next;
