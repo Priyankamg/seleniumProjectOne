@@ -11,7 +11,8 @@ public class dogAgainTest {
         dogAgainObj.bark();
         dogAgainObj.name = "Tommy";
 
-        dogAgain dogAgainArr[] = new dogAgain[3];
+
+        dogAgain[] dogAgainArr = new dogAgain[3];
         dogAgainArr[0] = new dogAgain();
         dogAgainArr[1] = new dogAgain();
         dogAgainArr[2] = dogAgainObj;
