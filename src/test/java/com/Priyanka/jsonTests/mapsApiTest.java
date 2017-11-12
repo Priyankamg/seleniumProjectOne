@@ -63,6 +63,7 @@ public class mapsApiTest {
                 .get(url)
                 .then()
                 .extract().response();
+        response.prettyPrint();
         Assert.assertEquals(response.path("status"),"OK");
         Assert.assertEquals(response.path("results[0].formatted_address"),"1600 Amphitheatre Pkwy, Mountain View, CA 94043, USA");
         Assert.assertEquals(response.path("results[0].address_components[0].short_name"),"1600");

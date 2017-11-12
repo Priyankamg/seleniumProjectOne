@@ -1,0 +1,291 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 2,
+            "value": "# Given - Initial Setup"
+          },
+          {
+            "line": 3,
+            "value": "# When - Perform some operations"
+          },
+          {
+            "line": 4,
+            "value": "# Then - Assertions"
+          }
+        ],
+        "line": 6,
+        "name": "Search for kajal",
+        "description": "",
+        "id": "basic-tests;search-for-kajal",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 136684007,
+              "error_message": "java.lang.IllegalStateException: The driver is not executable: /Users/prinks/myAuto/seleniumProjectOne/src/main/java/com/Priyanka/webDrivers/chromedriver.exe\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:199)\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:125)\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)\n\tat org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)\n\tat org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)\n\tat org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:116)\n\tat com.Priyanka.cucumber.features.stepDefinitions.navigateToWebsite(stepDefinitions.java:32)\n\tat ✽.Given I navigate to the website(features/basic.feature:7)\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "I navigate to the website",
+            "match": {
+              "location": "stepDefinitions.navigateToWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I search for \"kajal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kajal",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinitions.searchFor(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I click on \"Maybelline The Colossal Kajal Eyeliner Pencil - Black\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Maybelline The Colossal Kajal Eyeliner Pencil - Black",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.clickOnAProduct(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I check that I am on \"Maybelline The Colossal Kajal Eyeliner Pencil - Black\" Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Maybelline The Colossal Kajal Eyeliner Pencil - Black",
+                  "offset": 22
+                }
+              ],
+              "location": "stepDefinitions.checkWhetherIAmOnTheRightPage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I close the browser",
+            "match": {
+              "location": "stepDefinitions.closeTheBrowser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Fill in the shipping address",
+        "description": "",
+        "id": "basic-tests;fill-in-the-shipping-address",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 773281,
+              "error_message": "java.lang.IllegalStateException: The driver is not executable: /Users/prinks/myAuto/seleniumProjectOne/src/main/java/com/Priyanka/webDrivers/chromedriver.exe\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:199)\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:125)\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)\n\tat org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)\n\tat org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)\n\tat org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:116)\n\tat com.Priyanka.cucumber.features.stepDefinitions.navigateToWebsite(stepDefinitions.java:32)\n\tat ✽.Given I navigate to the website(features/basic.feature:14)\n",
+              "status": "failed"
+            },
+            "line": 14,
+            "name": "I navigate to the website",
+            "match": {
+              "location": "stepDefinitions.navigateToWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I search for \"bathroom freshner\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "bathroom freshner",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinitions.searchFor(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "I click on \"Citrus Magic Solid Air Freshener, Fresh Citrus, 8-Ounce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Citrus Magic Solid Air Freshener, Fresh Citrus, 8-Ounce",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.clickOnAProduct(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "I check that I am on \"Citrus Magic Solid Air Freshener, Fresh Citrus, 8-Ounce\" Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Citrus Magic Solid Air Freshener, Fresh Citrus, 8-Ounce",
+                  "offset": 22
+                }
+              ],
+              "location": "stepDefinitions.checkWhetherIAmOnTheRightPage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "I choose quantity as \"20\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 22
+                }
+              ],
+              "location": "stepDefinitions.iChooseQuantityAs(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "I click on \"Add to Shopping Cart\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Add to Shopping Cart",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.iClickOnButton(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "I check that I am on \"Added to Cart\" Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Added to Cart",
+                  "offset": 22
+                }
+              ],
+              "location": "stepDefinitions.checkWhetherIAmOnTheRightPage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "I click on \"Proceed to checkout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Proceed to checkout",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.clickOnAProduct(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "I enter Sign in credentials",
+            "match": {
+              "location": "stepDefinitions.iEnterSignInCredentials(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "email",
+                  "priyankamg.test@gmail.com"
+                ],
+                "line": 23
+              },
+              {
+                "cells": [
+                  "password",
+                  "karu5%99"
+                ],
+                "line": 24
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "I close the browser",
+            "match": {
+              "location": "stepDefinitions.closeTheBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Basic tests",
+    "description": "",
+    "id": "basic-tests",
+    "keyword": "Feature",
+    "uri": "features/basic.feature"
+  }
+]
