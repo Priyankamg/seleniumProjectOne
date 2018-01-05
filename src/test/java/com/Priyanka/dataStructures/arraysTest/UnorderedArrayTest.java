@@ -2,6 +2,7 @@ package com.Priyanka.dataStructures.arraysTest;
 
 import com.Priyanka.dataStructures.arrays.UnorderedArray;
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 
 /**
@@ -10,16 +11,16 @@ import org.junit.Test;
 public class UnorderedArrayTest {
     UnorderedArray unorderedArray;
 
-//    @Before
-//    public void initialize() {
-////        unorderedArray = new UnorderedArray(10);
-////        unorderedArray.insert(2);
-////        unorderedArray.insert(10);
-////        unorderedArray.insert(15);
-////        unorderedArray.insert(5);
-////        unorderedArray.insert(1);
-// //       unorderedArray.display();
-//    }
+    @Before
+    public void initialize() {
+        unorderedArray = new UnorderedArray(10);
+        unorderedArray.insert(2);
+        unorderedArray.insert(10);
+        unorderedArray.insert(15);
+        unorderedArray.insert(5);
+        unorderedArray.insert(1);
+        unorderedArray.display();
+    }
 
     @Test
     public void testGetMax() {

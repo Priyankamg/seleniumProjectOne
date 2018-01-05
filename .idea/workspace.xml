@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="894e3914-5370-41de-96a3-2dc4001d8585" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/Priyanka/dataStructures/sets/UnderstandHashSet.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/Priyanka/dataStructures/sets/UnderstandLinkedHashSet.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/Priyanka/dataStructures/sets/duplicatesString.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/sets/UnderstandHashSet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/sets/UnderstandLinkedHashSet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/sets/duplicatesString.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/Priyanka/dataStructures/arrays/UnorderedArray.class" afterPath="$PROJECT_DIR$/target/classes/com/Priyanka/dataStructures/arrays/UnorderedArray.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/Priyanka/dataStructures/arraysTest/UnorderedArrayTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/Priyanka/dataStructures/arraysTest/UnorderedArrayTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/arrays/UnorderedArray.java" afterPath="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/arrays/UnorderedArray.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructures/arraysTest/UnorderedArrayTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructures/arraysTest/UnorderedArrayTest.java" />
     </list>
     <ignored path="seleniumProjectOne.iws" />
@@ -60,8 +50,8 @@
       <file leaf-file-name="UnorderedArrayTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructures/arraysTest/UnorderedArrayTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="94" column="22" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
+            <state relative-caret-position="-1309">
+              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -229,9 +219,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/sets/UnderstandSet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/sets/UnderstandLinkedHashSet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/sets/duplicatesString.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructures/arraysTest/UnorderedArrayTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/sets/UnderstandHashSet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/arrays/UnorderedArray.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructures/arraysTest/UnorderedArrayTest.java" />
       </list>
     </option>
   </component>
@@ -1592,8 +1582,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructures/arraysTest/UnorderedArrayTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="94" column="22" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
+        <state relative-caret-position="-1309">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
