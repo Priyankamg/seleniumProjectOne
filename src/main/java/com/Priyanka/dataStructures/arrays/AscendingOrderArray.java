@@ -83,6 +83,28 @@ public class AscendingOrderArray {
         }
     }
 
+    public void merge(int[] arr1, int[] arr2) {
+        arr = new int[arr1.length + arr2.length];
+
+        if(arr1.length >= arr2.length) {
+            for(int i=0; i<arr1.length; i++) {
+                arr[i] = arr1[i];
+            }
+            numberOfElements = arr1.length;
+            for(int i=0; i<arr2.length; i++) {
+                insert(arr2[i]);
+            }
+        } else {
+            for(int i=0; i<arr2.length; i++) {
+                arr[i] = arr2[i];
+            }
+            numberOfElements = arr2.length;
+            for(int i=0; i<arr1.length; i++) {
+                insert(arr1[i]);
+            }
+        }
+    }
+
     public void display() {
         for(int i=0; i<numberOfElements; i++) {
             System.out.print(arr[i] + " ");

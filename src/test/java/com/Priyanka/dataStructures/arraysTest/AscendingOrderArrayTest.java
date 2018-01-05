@@ -56,5 +56,29 @@ public class AscendingOrderArrayTest {
         ascendingOrderArray.display();
     }
 
+    @Test
+    public void testMergeArr1LesserElementsThanArr2() {
+        int[] arr1 = {11, 15, 17, 21};
+        int[] arr2 = {1, 2, 12, 16, 18, 20, 22, 50, 70, 90, 100};
+        ascendingOrderArray.merge(arr1, arr2);
+        ascendingOrderArray.display();
+    }
+
+    @Test
+    public void testMergeArr2LesserElementsThanArr1() {
+        int[] arr1 = {-123, 0, 4, 7, 10, 15, 20, 25, 30, 33, 35, 37};
+        int[] arr2 = {-20, -1, 1, 5, 6, 12, 13, 22, 34, 100};
+        ascendingOrderArray.merge(arr1, arr2);
+        ascendingOrderArray.display();
+    }
+
+    @Test
+    public void testMergeBothArraysEqualSize() {
+        int[] arrOne = {25, 35, 45, 55, 65};
+        int[] arrTwo = {11, 22, 50, 100, 300};
+        ascendingOrderArray.merge(arrOne, arrTwo);
+        ascendingOrderArray.display();
+    }
+
 
 }
