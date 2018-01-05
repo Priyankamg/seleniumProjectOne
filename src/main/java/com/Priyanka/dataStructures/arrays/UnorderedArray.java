@@ -76,4 +76,18 @@ public class UnorderedArray {
             return true;
         }
     }
+
+    public void noDuplicates() {
+        for(int i=0; i<numberOfElements-1; i++) {
+            for(int j=i+1; j<numberOfElements; j++) {
+                if(arr[j] == arr[i]) {
+                    for(int k = j; k <numberOfElements-1; k++) {
+                        arr[k] = arr[k+1];
+                    }
+                    numberOfElements--;
+                    j--;
+                }
+            }
+        }
+    }
 }

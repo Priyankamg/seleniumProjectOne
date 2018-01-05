@@ -11,16 +11,16 @@ import org.junit.Test;
 public class UnorderedArrayTest {
     UnorderedArray unorderedArray;
 
-    @Before
-    public void initialize() {
-        unorderedArray = new UnorderedArray(10);
-        unorderedArray.insert(2);
-        unorderedArray.insert(10);
-        unorderedArray.insert(15);
-        unorderedArray.insert(5);
-        unorderedArray.insert(1);
-        unorderedArray.display();
-    }
+//    @Before
+//    public void initialize() {
+////        unorderedArray = new UnorderedArray(10);
+////        unorderedArray.insert(2);
+////        unorderedArray.insert(10);
+////        unorderedArray.insert(15);
+////        unorderedArray.insert(5);
+////        unorderedArray.insert(1);
+// //       unorderedArray.display();
+//    }
 
     @Test
     public void testGetMax() {
@@ -64,5 +64,31 @@ public class UnorderedArrayTest {
             System.out.print(newArr[i] + " ");
         }
         System.out.println();
+    }
+
+    @Test
+    public void testNoDuplicates() {
+        unorderedArray = new UnorderedArray(20);
+        unorderedArray.insert(2);
+        unorderedArray.insert(5);
+        unorderedArray.insert(6);
+        unorderedArray.insert(5);
+        unorderedArray.insert(7);
+        unorderedArray.insert(5);
+        unorderedArray.insert(5);
+        unorderedArray.insert(6);
+        unorderedArray.insert(5);
+        unorderedArray.insert(6);
+        unorderedArray.insert(1);
+        unorderedArray.insert(3);
+        unorderedArray.insert(10);
+        unorderedArray.insert(5);
+        unorderedArray.insert(12);
+
+        unorderedArray.display();
+
+        unorderedArray.noDuplicates();
+
+        unorderedArray.display();
     }
 }

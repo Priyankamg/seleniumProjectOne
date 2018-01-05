@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="894e3914-5370-41de-96a3-2dc4001d8585" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/arrays/AscendingOrderArray.java" afterPath="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/arrays/AscendingOrderArray.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructures/arraysTest/AscendingOrderArrayTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructures/arraysTest/AscendingOrderArrayTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/arrays/UnorderedArray.java" afterPath="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/arrays/UnorderedArray.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructures/arraysTest/UnorderedArrayTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructures/arraysTest/UnorderedArrayTest.java" />
     </list>
     <ignored path="seleniumProjectOne.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,11 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UnorderedArray.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UnorderedArray.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/arrays/UnorderedArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="53" column="32" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
+            <state relative-caret-position="266">
+              <caret line="87" column="24" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="24" />
               <folding>
                 <element signature="e#1250#1251#0" expanded="true" />
                 <element signature="e#1289#1290#0" expanded="true" />
@@ -59,10 +59,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AscendingOrderArrayTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AscendingOrderArrayTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructures/arraysTest/AscendingOrderArrayTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-64">
+            <state relative-caret-position="915">
               <caret line="61" column="15" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -76,12 +76,12 @@
       <file leaf-file-name="UnorderedArrayTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructures/arraysTest/UnorderedArrayTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+            <state relative-caret-position="206">
+              <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#635#636#0" expanded="true" />
-                <element signature="e#698#699#0" expanded="true" />
+                <element signature="e#669#670#0" expanded="true" />
+                <element signature="e#732#733#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -157,10 +157,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/arrays/PersonHighArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/arrays/Person.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructures/arraysTest/PersonHighArrayTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/arrays/UnorderedArray.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructures/arraysTest/UnorderedArrayTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/arrays/AscendingOrderArray.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructures/arraysTest/AscendingOrderArrayTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructures/arraysTest/UnorderedArrayTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/arrays/UnorderedArray.java" />
       </list>
     </option>
   </component>
@@ -401,33 +401,7 @@
       <recent name="C:\Users\Abhinav\IdeaProjects\seleniumProjectOne\src\main\java\com\Priyanka\cucumber\cucumber\features" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AscendingOrderArrayTest.testMergeBothArraysEqualSize">
-    <configuration default="false" name="AscendingOrderArrayTest.testFind" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.Priyanka.dataStructures.arraysTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="seleniumProjectOne" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.Priyanka.dataStructures.arraysTest" />
-      <option name="MAIN_CLASS_NAME" value="com.Priyanka.dataStructures.arraysTest.AscendingOrderArrayTest" />
-      <option name="METHOD_NAME" value="testFind" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.UnorderedArrayTest.testNoDuplicates">
     <configuration default="false" name="AscendingOrderArrayTest.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -519,6 +493,32 @@
       <option name="PACKAGE_NAME" value="com.Priyanka.dataStructures.arraysTest" />
       <option name="MAIN_CLASS_NAME" value="com.Priyanka.dataStructures.arraysTest.AscendingOrderArrayTest" />
       <option name="METHOD_NAME" value="testMergeBothArraysEqualSize" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="UnorderedArrayTest.testNoDuplicates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.Priyanka.dataStructures.arraysTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="seleniumProjectOne" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.Priyanka.dataStructures.arraysTest" />
+      <option name="MAIN_CLASS_NAME" value="com.Priyanka.dataStructures.arraysTest.UnorderedArrayTest" />
+      <option name="METHOD_NAME" value="testNoDuplicates" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -930,19 +930,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.AscendingOrderArrayTest.testFind" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.AscendingOrderArrayTest.testDelete" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.AscendingOrderArrayTest.testMerge" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.AscendingOrderArrayTest.testMergeArr2LesserElementsThanArr1" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.AscendingOrderArrayTest.testMergeBothArraysEqualSize" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.AscendingOrderArrayTest.testDelete" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.AscendingOrderArrayTest.testMerge" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.AscendingOrderArrayTest.testMergeArr2LesserElementsThanArr1" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.AscendingOrderArrayTest.testMergeBothArraysEqualSize" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.UnorderedArrayTest.testNoDuplicates" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.AscendingOrderArrayTest.testMergeBothArraysEqualSize" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.AscendingOrderArrayTest.testMergeArr2LesserElementsThanArr1" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.AscendingOrderArrayTest.testMerge" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.AscendingOrderArrayTest.testDelete" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.AscendingOrderArrayTest.testFind" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.UnorderedArrayTest.testNoDuplicates" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.AscendingOrderArrayTest.testMergeBothArraysEqualSize" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.AscendingOrderArrayTest.testMergeArr2LesserElementsThanArr1" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.AscendingOrderArrayTest.testMerge" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.AscendingOrderArrayTest.testDelete" />
       </list>
     </recent_temporary>
   </component>
@@ -964,21 +964,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AscendingOrderArrayTest_testMerge - 2018.01.04 at 16h 29m 44s.xml">
-      <configuration name="AscendingOrderArrayTest.testMerge" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AscendingOrderArrayTest_testMerge - 2018.01.04 at 16h 36m 32s.xml">
-      <configuration name="AscendingOrderArrayTest.testMerge" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AscendingOrderArrayTest_testMerge - 2018.01.04 at 16h 37m 20s.xml">
-      <configuration name="AscendingOrderArrayTest.testMerge" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AscendingOrderArrayTest_testMerge - 2018.01.04 at 16h 38m 08s.xml">
-      <configuration name="AscendingOrderArrayTest.testMerge" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AscendingOrderArrayTest_testMerge - 2018.01.04 at 16h 39m 12s.xml">
-      <configuration name="AscendingOrderArrayTest.testMerge" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AscendingOrderArrayTest_testMerge - 2018.01.04 at 16h 41m 09s.xml">
       <configuration name="AscendingOrderArrayTest.testMerge" configurationId="JUnit" />
     </history-entry>
@@ -993,6 +978,21 @@
     </history-entry>
     <history-entry file="AscendingOrderArrayTest_testMergeBothArraysEqualSize - 2018.01.04 at 16h 46m 44s.xml">
       <configuration name="AscendingOrderArrayTest.testMergeBothArraysEqualSize" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnorderedArrayTest_testNoDuplicates - 2018.01.04 at 17h 48m 30s.xml">
+      <configuration name="UnorderedArrayTest.testNoDuplicates" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnorderedArrayTest_testNoDuplicates - 2018.01.04 at 17h 49m 11s.xml">
+      <configuration name="UnorderedArrayTest.testNoDuplicates" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnorderedArrayTest_testNoDuplicates - 2018.01.04 at 17h 55m 49s.xml">
+      <configuration name="UnorderedArrayTest.testNoDuplicates" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnorderedArrayTest_testNoDuplicates - 2018.01.04 at 17h 58m 35s.xml">
+      <configuration name="UnorderedArrayTest.testNoDuplicates" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnorderedArrayTest_testNoDuplicates - 2018.01.04 at 18h 11m 03s.xml">
+      <configuration name="UnorderedArrayTest.testNoDuplicates" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1462,29 +1462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructures/arraysTest/UnorderedArrayTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/arrays/UnorderedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="53" column="32" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
-          <folding>
-            <element signature="e#1250#1251#0" expanded="true" />
-            <element signature="e#1289#1290#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/arrays/AscendingOrderArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -1498,12 +1475,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructures/arraysTest/AscendingOrderArrayTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-64">
+        <state relative-caret-position="915">
           <caret line="61" column="15" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#352#353#0" expanded="true" />
             <element signature="e#417#418#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructures/arraysTest/UnorderedArrayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/arrays/UnorderedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="87" column="24" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="24" />
+          <folding>
+            <element signature="e#1250#1251#0" expanded="true" />
+            <element signature="e#1289#1290#0" expanded="true" />
           </folding>
         </state>
       </provider>
