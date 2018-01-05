@@ -1,4 +1,4 @@
-package com.Priyanka.dataStructures.arraysTest;
+package com.Priyanka.dataStructuresTest.arraysTest;
 
 import com.Priyanka.dataStructures.arrays.OrderedArray;
 import org.junit.Assert;
