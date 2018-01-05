@@ -1,5 +1,9 @@
 package com.Priyanka.dataStructures.arrays;
 
+import java.util.Iterator;
+import java.util.LinkedHashSet;
+import java.util.Set;
+
 /**
  * Created by prinks on 1/4/18.
  */
@@ -77,6 +81,9 @@ public class UnorderedArray {
         }
     }
 
+    /*
+    Traditional approach. Takes too long. O(n*n*n)
+     */
     public void noDuplicates() {
         for(int i=0; i<numberOfElements-1; i++) {
             for(int j=i+1; j<numberOfElements; j++) {
@@ -89,5 +96,19 @@ public class UnorderedArray {
                 }
             }
         }
+    }
+
+    public void noDuplicatesUsingSet() {
+        Set<Integer> noDuplicatesSet = new LinkedHashSet<Integer>();
+
+        for(int i=0; i<numberOfElements; i++) {
+            noDuplicatesSet.add(arr[i]);
+        }
+
+        Iterator<Integer> noDuplicatesSetIterator = noDuplicatesSet.iterator();
+        while(noDuplicatesSetIterator.hasNext()) {
+            System.out.print(noDuplicatesSetIterator.next() + " ");
+        }
+        System.out.println();
     }
 }

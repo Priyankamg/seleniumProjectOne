@@ -2,7 +2,6 @@ package com.Priyanka.dataStructures.arraysTest;
 
 import com.Priyanka.dataStructures.arrays.UnorderedArray;
 import org.junit.Assert;
-import org.junit.Before;
 import org.junit.Test;
 
 /**
@@ -90,5 +89,32 @@ public class UnorderedArrayTest {
         unorderedArray.noDuplicates();
 
         unorderedArray.display();
+    }
+
+    @Test
+    public void testNoDuplicatesUsingSet() {
+        unorderedArray = new UnorderedArray(20);
+        unorderedArray.insert(1);
+        unorderedArray.insert(2);
+        unorderedArray.insert(1);
+        unorderedArray.insert(2);
+        unorderedArray.insert(15);
+        unorderedArray.insert(1);
+        unorderedArray.insert(15);
+        unorderedArray.insert(15);
+        unorderedArray.insert(20);
+        unorderedArray.insert(20);
+        unorderedArray.insert(20);
+        unorderedArray.insert(20);
+        unorderedArray.insert(25);
+        unorderedArray.insert(90);
+        unorderedArray.insert(75);
+        unorderedArray.insert(20);
+        unorderedArray.insert(45);
+        unorderedArray.insert(50);
+
+        unorderedArray.display();
+
+        unorderedArray.noDuplicatesUsingSet();
     }
 }
