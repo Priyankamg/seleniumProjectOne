@@ -40,4 +40,29 @@ public class InsertionSort {
         insertionSortMethod();
         return arr[numberOfElements/2];
     }
+
+    public void arrWithoutDuplicates() {
+        int[] newArr = new int[numberOfElements];
+
+        if(numberOfElements>0) {
+            int dup = arr[0];
+            for(int i=1; i<numberOfElements; i++) {
+                if(arr[i] == dup) {
+                    arr[i] = -1;
+                } else {
+                    dup = arr[i];
+                }
+            }
+        }
+
+        int j = 0;
+        for(int i=0; i<numberOfElements; i++) {
+            if(arr[i] != -1) {
+                newArr[j] = arr[i];
+                j++;
+            }
+        }
+
+        arr = newArr;
+    }
 }

@@ -108,4 +108,38 @@ public class InsertionSortTest {
 
         System.out.println("Median of 9 numbers is: " + insertionSort.getMedian());
     }
+
+    @Test
+    public void testInsertionSortNoDuplicates() {
+        insertionSort = new InsertionSort(20);
+
+        insertionSort.insert(8);
+        insertionSort.insert(7);
+        insertionSort.insert(6);
+        insertionSort.insert(7);
+        insertionSort.insert(5);
+        insertionSort.insert(2);
+        insertionSort.insert(1);
+        insertionSort.insert(1);
+        insertionSort.insert(4);
+        insertionSort.insert(5);
+        insertionSort.insert(5);
+        insertionSort.insert(4);
+        insertionSort.insert(3);
+        insertionSort.insert(4);
+        insertionSort.insert(3);
+        insertionSort.insert(4);
+        insertionSort.insert(1);
+        insertionSort.insert(2);
+
+        insertionSort.display();
+
+        insertionSort.insertionSortMethod();
+
+        insertionSort.display();
+
+        insertionSort.arrWithoutDuplicates();
+
+        insertionSort.display();
+    }
 }
