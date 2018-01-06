@@ -60,7 +60,7 @@ public class BubbleSortTest {
     @Test
     public void oddEvenSortTest() {
         for(int i=10; i>0; i--)
-            bubbleSort.insert(i*3);
+            bubbleSort.insert(i*7);
 
         bubbleSort.display();
 
@@ -71,8 +71,8 @@ public class BubbleSortTest {
 
     @Test
     public void oddEvenSortTest2() {
-        for(int i=9; i>0; i--)
-            bubbleSort.insert(i*7);
+        for(int i=7; i>0; i--)
+            bubbleSort.insert(i*3);
 
         bubbleSort.display();
 

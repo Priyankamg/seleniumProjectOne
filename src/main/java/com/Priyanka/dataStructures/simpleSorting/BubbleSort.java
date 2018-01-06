@@ -59,17 +59,33 @@ public class BubbleSort {
 
     public void oddEvenSort() {
 
- //       int n = (numberOfElements%2==0) ? (numberOfElements/2) : ((numberOfElements/2)+1);
+        int evenSortVar;
+        int oddSortVar;
+
+        if(numberOfElements%2==0) {
+            evenSortVar = numberOfElements;
+            oddSortVar = numberOfElements-1;
+        } else {
+            evenSortVar = numberOfElements-1;
+            oddSortVar = numberOfElements;
+        }
 
         for(int i=0; i<numberOfElements/2; i++) {
-            for(int j=0; j<numberOfElements; j+=2) {
+            for(int j=0; j<evenSortVar; j+=2) {
                 if(arr[j]>arr[j+1])
                     swap(j,j+1);
             }
 
-            for(int k=1; k<numberOfElements-1; k+=2) {
+            for(int k=1; k<oddSortVar; k+=2) {
                 if(arr[k]>arr[k+1])
                     swap(k,k+1);
+            }
+        }
+
+        if(numberOfElements%2!=0) {
+            for(int j=0; j<evenSortVar; j+=2) {
+                if(arr[j]>arr[j+1])
+                    swap(j,j+1);
             }
         }
     }
