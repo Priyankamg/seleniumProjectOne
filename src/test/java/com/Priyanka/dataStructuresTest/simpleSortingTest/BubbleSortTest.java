@@ -56,4 +56,28 @@ public class BubbleSortTest {
         bubbleSort.bubbleBiDirection();
         bubbleSort.display();
     }
+
+    @Test
+    public void oddEvenSortTest() {
+        for(int i=10; i>0; i--)
+            bubbleSort.insert(i*3);
+
+        bubbleSort.display();
+
+        bubbleSort.oddEvenSort();
+
+        bubbleSort.display();
+    }
+
+    @Test
+    public void oddEvenSortTest2() {
+        for(int i=9; i>0; i--)
+            bubbleSort.insert(i*7);
+
+        bubbleSort.display();
+
+        bubbleSort.oddEvenSort();
+
+        bubbleSort.display();
+    }
 }

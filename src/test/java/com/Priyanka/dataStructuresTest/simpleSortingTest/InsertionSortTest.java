@@ -70,6 +70,24 @@ public class InsertionSortTest {
     }
 
     @Test
+    public void testFour() {
+        insertionSort.insert(11);
+        insertionSort.insert(10);
+        insertionSort.insert(100);
+        insertionSort.insert(99);
+        insertionSort.insert(88);
+        insertionSort.insert(88);
+        insertionSort.insert(99);
+        insertionSort.insert(99);
+
+        insertionSort.display();
+
+        insertionSort.insertionSortMethod();
+
+        insertionSort.display();
+    }
+
+    @Test
     public void testMedianEven() {
         for(int i=4; i>0; i--)
             insertionSort.insert(i);
