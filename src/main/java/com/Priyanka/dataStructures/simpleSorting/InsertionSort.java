@@ -35,4 +35,9 @@ public class InsertionSort {
             arr[j] = temp;
         }
     }
+
+    public int getMedian() {
+        insertionSortMethod();
+        return arr[numberOfElements/2];
+    }
 }

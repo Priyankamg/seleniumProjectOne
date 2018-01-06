@@ -68,4 +68,26 @@ public class InsertionSortTest {
         insertionSort.insertionSortMethod();
         insertionSort.display();
     }
+
+    @Test
+    public void testMedianEven() {
+        for(int i=4; i>0; i--)
+            insertionSort.insert(i);
+
+        insertionSort.display();
+
+        System.out.println("Median of 8 numbers is: " + insertionSort.getMedian());
+
+
+    }
+
+    @Test
+    public void testMedianOdd() {
+        for(int i=5; i>0; i--)
+            insertionSort.insert(i);
+
+        insertionSort.display();
+
+        System.out.println("Median of 9 numbers is: " + insertionSort.getMedian());
+    }
 }

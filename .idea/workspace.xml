@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="894e3914-5370-41de-96a3-2dc4001d8585" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/simpleSorting/BubbleSort.java" afterPath="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/simpleSorting/BubbleSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/simpleSortingTest/BubbleSortTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/simpleSortingTest/BubbleSortTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/simpleSorting/InsertionSort.java" afterPath="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/simpleSorting/InsertionSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/simpleSortingTest/InsertionSortTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/simpleSortingTest/InsertionSortTest.java" />
     </list>
     <ignored path="seleniumProjectOne.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,7 +48,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BubbleSortTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BubbleSortTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/simpleSortingTest/BubbleSortTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="11">
@@ -97,18 +97,18 @@
       <file leaf-file-name="InsertionSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/simpleSorting/InsertionSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+            <state relative-caret-position="206">
+              <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InsertionSortTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="InsertionSortTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/simpleSortingTest/InsertionSortTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
-              <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+            <state relative-caret-position="1080">
+              <caret line="72" column="28" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -222,13 +222,13 @@
         <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructures/arraysTest/arraysTest/UnorderedArrayTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/simpleSortingTest/SelectionSortTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/simpleSorting/SelectionSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/simpleSorting/InsertionSort.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/simpleSortingTest/InsertionSortTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/simpleSorting/Personnel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/simpleSorting/InsertionSortObject.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/simpleSortingTest/InsertionSortObjectTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/simpleSorting/BubbleSort.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/simpleSortingTest/BubbleSortTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/simpleSorting/InsertionSort.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/simpleSortingTest/InsertionSortTest.java" />
       </list>
     </option>
   </component>
@@ -537,79 +537,7 @@
       <recent name="C:\Users\Abhinav\IdeaProjects\seleniumProjectOne\src\main\java\com\Priyanka\cucumber\cucumber\features" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BubbleSortTest.testBubbleSortRandomBiDirection">
-    <configuration default="false" name="InsertionSortTest.testThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.Priyanka.dataStructuresTest.simpleSortingTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="seleniumProjectOne" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.Priyanka.dataStructuresTest.simpleSortingTest" />
-      <option name="MAIN_CLASS_NAME" value="com.Priyanka.dataStructuresTest.simpleSortingTest.InsertionSortTest" />
-      <option name="METHOD_NAME" value="testThree" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="InsertionSortObjectTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.Priyanka.dataStructuresTest.simpleSortingTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.Priyanka.dataStructuresTest.simpleSortingTest.InsertionSortObjectTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="seleniumProjectOne" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="InsertionSortObjectTest.testInsertionObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.Priyanka.dataStructuresTest.simpleSortingTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="seleniumProjectOne" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.Priyanka.dataStructuresTest.simpleSortingTest" />
-      <option name="MAIN_CLASS_NAME" value="com.Priyanka.dataStructuresTest.simpleSortingTest.InsertionSortObjectTest" />
-      <option name="METHOD_NAME" value="testInsertionObject" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.InsertionSortTest.testMedianEven">
     <configuration default="false" name="BubbleSortTest.testBubbleSortBidirection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -649,6 +577,84 @@
       <option name="PACKAGE_NAME" value="com.Priyanka.dataStructuresTest.simpleSortingTest" />
       <option name="MAIN_CLASS_NAME" value="com.Priyanka.dataStructuresTest.simpleSortingTest.BubbleSortTest" />
       <option name="METHOD_NAME" value="testBubbleSortRandomBiDirection" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="InsertionSortTest.testMedian" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.Priyanka.dataStructuresTest.simpleSortingTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="seleniumProjectOne" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.Priyanka.dataStructuresTest.simpleSortingTest" />
+      <option name="MAIN_CLASS_NAME" value="com.Priyanka.dataStructuresTest.simpleSortingTest.InsertionSortTest" />
+      <option name="METHOD_NAME" value="testMedian" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="InsertionSortTest.testMedianOdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.Priyanka.dataStructuresTest.simpleSortingTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="seleniumProjectOne" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.Priyanka.dataStructuresTest.simpleSortingTest" />
+      <option name="MAIN_CLASS_NAME" value="com.Priyanka.dataStructuresTest.simpleSortingTest.InsertionSortTest" />
+      <option name="METHOD_NAME" value="testMedianOdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="InsertionSortTest.testMedianEven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.Priyanka.dataStructuresTest.simpleSortingTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="seleniumProjectOne" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.Priyanka.dataStructuresTest.simpleSortingTest" />
+      <option name="MAIN_CLASS_NAME" value="com.Priyanka.dataStructuresTest.simpleSortingTest.InsertionSortTest" />
+      <option name="METHOD_NAME" value="testMedianEven" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1060,19 +1066,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.InsertionSortTest.testThree" />
-      <item index="1" class="java.lang.String" itemvalue="Application.InsertionSortObjectTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.InsertionSortObjectTest.testInsertionObject" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.BubbleSortTest.testBubbleSortBidirection" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.BubbleSortTest.testBubbleSortRandomBiDirection" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.BubbleSortTest.testBubbleSortBidirection" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.BubbleSortTest.testBubbleSortRandomBiDirection" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.InsertionSortTest.testMedian" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.InsertionSortTest.testMedianOdd" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.InsertionSortTest.testMedianEven" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BubbleSortTest.testBubbleSortRandomBiDirection" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BubbleSortTest.testBubbleSortBidirection" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.InsertionSortObjectTest.testInsertionObject" />
-        <item index="3" class="java.lang.String" itemvalue="Application.InsertionSortObjectTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.InsertionSortTest.testThree" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.InsertionSortTest.testMedianEven" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.InsertionSortTest.testMedianOdd" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.InsertionSortTest.testMedian" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BubbleSortTest.testBubbleSortRandomBiDirection" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.BubbleSortTest.testBubbleSortBidirection" />
       </list>
     </recent_temporary>
   </component>
@@ -1106,23 +1112,23 @@
     <history-entry file="BubbleSortTest_testBubbleSortRandomBiDirection - 2018.01.05 at 17h 47m 51s.xml">
       <configuration name="BubbleSortTest.testBubbleSortRandomBiDirection" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InsertionSortObjectTest_testInsertionObject - 2018.01.05 at 16h 16m 17s.xml">
-      <configuration name="InsertionSortObjectTest.testInsertionObject" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InsertionSortObjectTest_testInsertionObject - 2018.01.05 at 16h 17m 16s.xml">
-      <configuration name="InsertionSortObjectTest.testInsertionObject" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="InsertionSortObjectTest_testInsertionObject - 2018.01.05 at 16h 17m 46s.xml">
       <configuration name="InsertionSortObjectTest.testInsertionObject" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InsertionSortTest_testInsertionSort - 2018.01.05 at 15h 17m 57s.xml">
-      <configuration name="InsertionSortTest.testInsertionSort" configurationId="JUnit" />
+    <history-entry file="InsertionSortTest_testMedian - 2018.01.05 at 18h 08m 40s.xml">
+      <configuration name="InsertionSortTest.testMedian" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InsertionSortTest_testInsertionSortDesc - 2018.01.05 at 15h 19m 22s.xml">
-      <configuration name="InsertionSortTest.testInsertionSortDesc" configurationId="JUnit" />
+    <history-entry file="InsertionSortTest_testMedian - 2018.01.05 at 18h 09m 30s.xml">
+      <configuration name="InsertionSortTest.testMedian" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InsertionSortTest_testThree - 2018.01.05 at 15h 20m 24s.xml">
-      <configuration name="InsertionSortTest.testThree" configurationId="JUnit" />
+    <history-entry file="InsertionSortTest_testMedianEven - 2018.01.05 at 18h 10m 26s.xml">
+      <configuration name="InsertionSortTest.testMedianEven" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InsertionSortTest_testMedianOdd - 2018.01.05 at 18h 10m 02s.xml">
+      <configuration name="InsertionSortTest.testMedianOdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InsertionSortTest_testMedianOdd - 2018.01.05 at 18h 10m 14s.xml">
+      <configuration name="InsertionSortTest.testMedianOdd" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1570,24 +1576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/simpleSorting/InsertionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/simpleSortingTest/InsertionSortTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/simpleSorting/Personnel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
@@ -1637,6 +1625,24 @@
             <element signature="imports" expanded="true" />
             <element signature="e#310#311#0" expanded="true" />
             <element signature="e#357#358#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/simpleSorting/InsertionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/simpleSortingTest/InsertionSortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="72" column="28" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
