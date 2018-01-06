@@ -40,4 +40,20 @@ public class BubbleSort {
             }
         }
     }
+
+    public void bubbleBiDirection() {
+        for(int i=0; i<numberOfElements/2; i++) {
+            int j;
+            for(j=0; j<numberOfElements-(i+1); j++) {
+                if(arr[j]>arr[j+1])
+                    swap(j,j+1);
+            }
+
+            for(int k=j; k>0; k--) {
+                if(arr[k]<arr[k-1]) {
+                    swap(k,k-1);
+                }
+            }
+        }
+    }
 }

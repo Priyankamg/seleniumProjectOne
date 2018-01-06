@@ -26,4 +26,34 @@ public class BubbleSortTest {
         bubbleSort.bubble();
         bubbleSort.display();
     }
+
+    @Test
+    public void testBubbleSortBiDirection() {
+        for(int i=9; i>0; i--)
+            bubbleSort.insert(i);
+
+        bubbleSort.display();
+
+        bubbleSort.bubbleBiDirection();
+        bubbleSort.display();
+    }
+
+    @Test
+    public void testBubbleSortRandomBiDirection() {
+        bubbleSort.insert(5);
+        bubbleSort.insert(3);
+        bubbleSort.insert(9);
+        bubbleSort.insert(12);
+        bubbleSort.insert(6);
+        bubbleSort.insert(4);
+        bubbleSort.insert(1);
+        bubbleSort.insert(10);
+        bubbleSort.insert(100);
+        bubbleSort.insert(50);
+
+        bubbleSort.display();
+
+        bubbleSort.bubbleBiDirection();
+        bubbleSort.display();
+    }
 }
