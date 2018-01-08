@@ -40,4 +40,19 @@ public class DelimitersTest {
     public void testExtraClosingParenthesis() {
         Assert.assertEquals(false,delimiters.checkDelimiters("ni{nco[(mpoop)]}}"));
     }
+
+    @Test
+    public void testNoDelimiters() {
+        Assert.assertEquals(true, delimiters.checkDelimiters("noDelimiters"));
+    }
+
+    @Test
+    public void testEmptyString() {
+        Assert.assertEquals(true, delimiters.checkDelimiters(""));
+    }
+
+    @Test
+    public void checkStringWithUpperCaseAndLowerCase() {
+        Assert.assertEquals(true, delimiters.checkDelimiters("S{i[m(ps)O]N}S"));
+    }
 }
