@@ -24,7 +24,7 @@ public class TestArraySum {
                 else {
                     for (int j = ascPtr; j < descPtr; j++) {
                         if (inputArr[descPtr] + inputArr[j] == sum) {
-                            System.out.println(inputArr[descPtr] + " , " + inputArr[j]);
+                            System.out.println(inputArr[descPtr] + "," + inputArr[j]);
                             ascPtr = j;
                             break;
                         }
