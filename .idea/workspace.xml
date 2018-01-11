@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="894e3914-5370-41de-96a3-2dc4001d8585" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/Priyanka/dataStructures/simpleSorting/Queue.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/com/Priyanka/dataStructuresTest/simpleSortingTest/QueueTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/simpleSorting/Queue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/simpleSortingTest/QueueTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/simpleSorting/CircularQueue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/simpleSorting/TestArraySum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/simpleSortingTest/CircularQueueTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/simpleSortingTest/ReadFromInput.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/simpleSortingTest/TestArraySumTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/Priyanka/dataStructuresTest/simpleSortingTest/QueueTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/Priyanka/dataStructuresTest/simpleSortingTest/QueueTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/simpleSortingTest/QueueTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/simpleSortingTest/QueueTest.java" />
     </list>
     <ignored path="seleniumProjectOne.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,35 +41,6 @@
     <splitter split-orientation="horizontal" split-proportion="0.9">
       <split-first>
         <leaf>
-          <file leaf-file-name="basicTest.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/revisitUiAutomation/basicTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="495">
-                  <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#841#842#0" expanded="true" />
-                    <element signature="e#871#872#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="basicTests.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/arraysTest/basicTests.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="251">
-                  <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#296#305#0" expanded="true" />
-                    <element signature="e#767#776#0" expanded="true" />
-                    <element signature="e#1285#1303#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="findElement.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/launchBrowsers/findElement.java">
               <provider selected="true" editor-type-id="text-editor">
@@ -105,12 +79,87 @@
           <file leaf-file-name="QueueTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/simpleSortingTest/QueueTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="870">
-                  <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+                <state relative-caret-position="1260">
+                  <caret line="84" column="9" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#291#292#0" expanded="true" />
                     <element signature="e#328#329#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CircularQueue.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/simpleSorting/CircularQueue.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="810">
+                  <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+                  <folding>
+                    <element signature="e#457#458#0" expanded="true" />
+                    <element signature="e#497#498#0" expanded="true" />
+                    <element signature="e#529#530#0" expanded="true" />
+                    <element signature="e#564#565#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ReadFromInput.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/simpleSortingTest/ReadFromInput.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TestArraySum.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/simpleSorting/TestArraySum.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="480">
+                  <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="mapsApiTest.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/jsonTests/mapsApiTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="885">
+                  <caret line="64" column="38" selection-start-line="64" selection-start-column="38" selection-end-line="64" selection-end-column="38" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TestArraySumTest.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/simpleSortingTest/TestArraySumTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="375">
+                  <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#318#319#0" expanded="true" />
+                    <element signature="e#367#368#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CircularQueueTest.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/simpleSortingTest/CircularQueueTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="228">
+                  <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#322#323#0" expanded="true" />
+                    <element signature="e#374#375#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -155,12 +204,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/udemy/Queue.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/udemyTest/QueueTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/udemyTest/LinkedListTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/udemy/LinkedList.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/udemyTest/SinglyLinkedListTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/udemy/SinglyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/main/java/udemy/CircularLinkedList.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/udemyTest/CircularLinkedListTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/udemy/Node.java" />
@@ -206,6 +249,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/simpleSorting/queue.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/simpleSorting/Queue.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/simpleSortingTest/QueueTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/simpleSortingTest/CircularQueueTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/simpleSorting/CircularQueue.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/simpleSortingTest/ReadFromInput.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/simpleSortingTest/TestArraySum.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/simpleSortingTest/TestArraySumTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/simpleSorting/TestArraySum.java" />
       </list>
     </option>
   </component>
@@ -320,6 +369,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Priyanka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seleniumProjectOne" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seleniumProjectOne" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Priyanka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsonTests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -529,89 +608,11 @@
       <recent name="C:\Users\Abhinav\IdeaProjects\seleniumProjectOne\src\main\java\com\Priyanka\webDrivers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.QueueTest.testInsertMoreElementsThanMaxSize">
-    <configuration default="false" name="basicTests.testHashMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.Priyanka.dataStructuresTest.arraysTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="seleniumProjectOne" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.Priyanka.dataStructuresTest.arraysTest" />
-      <option name="MAIN_CLASS_NAME" value="com.Priyanka.dataStructuresTest.arraysTest.basicTests" />
-      <option name="METHOD_NAME" value="testHashMap" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="QueueTest.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.Priyanka.dataStructuresTest.simpleSortingTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="seleniumProjectOne" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.Priyanka.dataStructuresTest.simpleSortingTest" />
-      <option name="MAIN_CLASS_NAME" value="com.Priyanka.dataStructuresTest.simpleSortingTest.QueueTest" />
-      <option name="METHOD_NAME" value="testInsert" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="QueueTest.testRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.Priyanka.dataStructuresTest.simpleSortingTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="seleniumProjectOne" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.Priyanka.dataStructuresTest.simpleSortingTest" />
-      <option name="MAIN_CLASS_NAME" value="com.Priyanka.dataStructuresTest.simpleSortingTest.QueueTest" />
-      <option name="METHOD_NAME" value="testRemove" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestArraySumTest.test2">
     <configuration default="false" name="QueueTest.testInsertMoreElementsThanMaxSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.Priyanka.dataStructuresTest.simpleSortingTest.*" />
+          <option name="PATTERN" value="com.Priyanka.dataStructures.simpleSorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -634,7 +635,73 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="QueueTest.testDeleteMoreItemsThanInserted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="CircularQueueTest.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.Priyanka.dataStructures.simpleSorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="seleniumProjectOne" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.Priyanka.dataStructuresTest.simpleSortingTest" />
+      <option name="MAIN_CLASS_NAME" value="com.Priyanka.dataStructuresTest.simpleSortingTest.CircularQueueTest" />
+      <option name="METHOD_NAME" value="testInsert" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ReadFromInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.Priyanka.dataStructures.simpleSorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.Priyanka.dataStructuresTest.simpleSortingTest.ReadFromInput" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="seleniumProjectOne" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestArraySumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.Priyanka.dataStructuresTest.simpleSortingTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.Priyanka.dataStructuresTest.simpleSortingTest.TestArraySumTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="seleniumProjectOne" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestArraySumTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.Priyanka.dataStructuresTest.simpleSortingTest.*" />
@@ -645,8 +712,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.Priyanka.dataStructuresTest.simpleSortingTest" />
-      <option name="MAIN_CLASS_NAME" value="com.Priyanka.dataStructuresTest.simpleSortingTest.QueueTest" />
-      <option name="METHOD_NAME" value="testDeleteMoreItemsThanInserted" />
+      <option name="MAIN_CLASS_NAME" value="com.Priyanka.dataStructuresTest.simpleSortingTest.TestArraySumTest" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1058,19 +1125,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.basicTests.testHashMap" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.QueueTest.testInsert" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.QueueTest.testRemove" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.QueueTest.testInsertMoreElementsThanMaxSize" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.QueueTest.testDeleteMoreItemsThanInserted" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.QueueTest.testInsertMoreElementsThanMaxSize" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CircularQueueTest.testInsert" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ReadFromInput" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TestArraySumTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestArraySumTest.test2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.QueueTest.testInsertMoreElementsThanMaxSize" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.QueueTest.testDeleteMoreItemsThanInserted" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.QueueTest.testRemove" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.QueueTest.testInsert" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.basicTests.testHashMap" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestArraySumTest.test2" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TestArraySumTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ReadFromInput" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CircularQueueTest.testInsert" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.QueueTest.testInsertMoreElementsThanMaxSize" />
       </list>
     </recent_temporary>
   </component>
@@ -1092,35 +1159,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QueueTest_testDeleteMoreItemsThanInserted - 2018.01.10 at 18h 04m 31s.xml">
-      <configuration name="QueueTest.testDeleteMoreItemsThanInserted" configurationId="JUnit" />
+    <history-entry file="CircularQueueTest_testInsert - 2018.01.10 at 18h 51m 40s.xml">
+      <configuration name="CircularQueueTest.testInsert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueueTest_testDeleteMoreItemsThanInserted - 2018.01.10 at 18h 04m 52s.xml">
-      <configuration name="QueueTest.testDeleteMoreItemsThanInserted" configurationId="JUnit" />
+    <history-entry file="CircularQueueTest_testInsert - 2018.01.10 at 18h 53m 38s.xml">
+      <configuration name="CircularQueueTest.testInsert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueueTest_testInsert - 2018.01.10 at 17h 48m 02s.xml">
-      <configuration name="QueueTest.testInsert" configurationId="JUnit" />
+    <history-entry file="CircularQueueTest_testInsert - 2018.01.10 at 18h 55m 07s.xml">
+      <configuration name="CircularQueueTest.testInsert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueueTest_testInsert - 2018.01.10 at 17h 56m 12s.xml">
-      <configuration name="QueueTest.testInsert" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QueueTest_testInsertMoreElementsThanMaxSize - 2018.01.10 at 18h 02m 17s.xml">
-      <configuration name="QueueTest.testInsertMoreElementsThanMaxSize" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QueueTest_testInsertMoreElementsThanMaxSize - 2018.01.10 at 18h 02m 38s.xml">
-      <configuration name="QueueTest.testInsertMoreElementsThanMaxSize" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QueueTest_testInsertMoreElementsThanMaxSize - 2018.01.10 at 18h 05m 45s.xml">
-      <configuration name="QueueTest.testInsertMoreElementsThanMaxSize" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QueueTest_testInsertMoreElementsThanMaxSize - 2018.01.10 at 18h 05m 55s.xml">
-      <configuration name="QueueTest.testInsertMoreElementsThanMaxSize" configurationId="JUnit" />
+    <history-entry file="CircularQueueTest_testInsert - 2018.01.10 at 18h 55m 40s.xml">
+      <configuration name="CircularQueueTest.testInsert" configurationId="JUnit" />
     </history-entry>
     <history-entry file="QueueTest_testInsertMoreElementsThanMaxSize - 2018.01.10 at 18h 06m 14s.xml">
       <configuration name="QueueTest.testInsertMoreElementsThanMaxSize" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueueTest_testRemove - 2018.01.10 at 18h 00m 16s.xml">
-      <configuration name="QueueTest.testRemove" configurationId="JUnit" />
+    <history-entry file="TestArraySumTest_test2 - 2018.01.11 at 10h 58m 23s.xml">
+      <configuration name="TestArraySumTest.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestArraySumTest_test2 - 2018.01.11 at 10h 58m 37s.xml">
+      <configuration name="TestArraySumTest.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestArraySumTest_test2 - 2018.01.11 at 10h 58m 54s.xml">
+      <configuration name="TestArraySumTest.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestArraySumTest_test2 - 2018.01.11 at 10h 59m 09s.xml">
+      <configuration name="TestArraySumTest.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestArraySumTest_test2 - 2018.01.11 at 10h 59m 55s.xml">
+      <configuration name="TestArraySumTest.test2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1216,60 +1283,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/udemyTest/SinglyLinkedListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Priyanka/dsa/SinglyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-          <folding>
-            <element signature="e#161#162#0" expanded="false" />
-            <element signature="e#195#196#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/udemyTest/LinkedListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="74" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/udemy/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/udemy/DoublyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/arrays/AscendingOrderArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="e#312#313#0" expanded="false" />
-            <element signature="e#351#352#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/arrays/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8">
@@ -1648,9 +1661,9 @@
         <state relative-caret-position="495">
           <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
-            <element signature="e#871#872#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#841#842#0" expanded="false" />
+            <element signature="e#871#872#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1697,10 +1710,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/simpleSortingTest/CircularQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/simpleSortingTest/TestArraySumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/jsonTests/mapsApiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="64" column="38" selection-start-line="64" selection-start-column="38" selection-end-line="64" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/simpleSorting/TestArraySum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/simpleSortingTest/ReadFromInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/simpleSorting/CircularQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+          <folding>
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/simpleSortingTest/QueueTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+        <state relative-caret-position="1260">
+          <caret line="84" column="9" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#291#292#0" expanded="true" />
