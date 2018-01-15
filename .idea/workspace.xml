@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="894e3914-5370-41de-96a3-2dc4001d8585" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/collections/Student.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/simpleSorting/DoubleEndedQueue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/collectionsTest/StudentArrayList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/collectionsTest/testArrayList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/collectionsTest/testArrayListAddAll.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/Priyanka/dataStructures/simpleSorting/CircularQueue.class" afterPath="$PROJECT_DIR$/target/classes/com/Priyanka/dataStructures/simpleSorting/CircularQueue.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/Priyanka/dataStructuresTest/simpleSortingTest/CircularQueueTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/Priyanka/dataStructuresTest/simpleSortingTest/CircularQueueTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/collections/Book.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/collectionsTest/BookArrayList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/collectionsTest/BookLinkedList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/collectionsTest/TestLinkedList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/collectionsTest/arrayAndLinkedList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/collectionsTest/testRemoveAll.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/collectionsTest/testRetainAll.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/simpleSorting/CircularQueue.java" afterPath="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/simpleSorting/CircularQueue.java" />
     </list>
     <ignored path="seleniumProjectOne.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,153 +38,92 @@
     <favorites_list name="seleniumProjectOne" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.9">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="jacksonApiTest.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/jsonTests/jacksonApiTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="mapsApiTest.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/jsonTests/mapsApiTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="810">
-                  <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="CircularQueue.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/simpleSorting/CircularQueue.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="810">
-                  <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
-                  <folding>
-                    <element signature="e#470#471#0" expanded="true" />
-                    <element signature="e#512#513#0" expanded="true" />
-                    <element signature="e#543#544#0" expanded="true" />
-                    <element signature="e#591#592#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="DoubleEndedQueue.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/simpleSorting/DoubleEndedQueue.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="514">
-                  <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#594#595#0" expanded="true" />
-                    <element signature="e#638#639#0" expanded="true" />
-                    <element signature="e#669#670#0" expanded="true" />
-                    <element signature="e#719#720#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="testArrayList.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/collectionsTest/testArrayList.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="79">
-                  <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#280#288#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/collections/Student.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="349">
-                  <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-                  <folding>
-                    <element signature="e#350#351#0" expanded="true" />
-                    <element signature="e#383#384#0" expanded="true" />
-                    <element signature="e#414#415#0" expanded="true" />
-                    <element signature="e#441#442#0" expanded="true" />
-                    <element signature="e#468#469#0" expanded="true" />
-                    <element signature="e#494#495#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="StudentArrayList.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/collectionsTest/StudentArrayList.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="109">
-                  <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#497#506#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="testArrayListAddAll.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/collectionsTest/testArrayListAddAll.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
-                  <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#279#287#0" expanded="true" />
-                    <element signature="e#411#419#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="CircularQueueTest.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/simpleSortingTest/CircularQueueTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="199">
-                  <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="simpleDetails.json" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/Priyanka/json/simpleDetails.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="beforeAfterMultipleTests.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/launchBrowsers/beforeAfterMultipleTests.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="testArrayList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/collectionsTest/testArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="79">
+              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#280#288#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/collections/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+              <folding>
+                <element signature="e#350#351#0" expanded="true" />
+                <element signature="e#383#384#0" expanded="true" />
+                <element signature="e#414#415#0" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
+                <element signature="e#468#469#0" expanded="true" />
+                <element signature="e#494#495#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StudentArrayList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/collectionsTest/StudentArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#497#506#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testArrayListAddAll.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/collectionsTest/testArrayListAddAll.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#279#287#0" expanded="true" />
+                <element signature="e#411#419#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BookLinkedList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/collectionsTest/BookLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#358#364#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="arrayAndLinkedList.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/collectionsTest/arrayAndLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#287#295#0" expanded="true" />
+                <element signature="e#517#525#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -208,13 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/arrays/PersonHighArray.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/arrays/Person.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructures/arraysTest/PersonHighArrayTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/arrays/AscendingOrderArray.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructures/arraysTest/AscendingOrderArrayTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/UnorderedArray.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/sets/UnderstandSet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/sets/UnderstandLinkedHashSet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/sets/duplicatesString.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/sets/UnderstandHashSet.java" />
@@ -259,6 +190,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/collections/Student.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/collectionsTest/StudentArrayList.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/collectionsTest/testArrayListAddAll.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/collectionsTest/testRemoveAll.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/collectionsTest/testRetainAll.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/collections/Book.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/collectionsTest/BookArrayList.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/collectionsTest/TestLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/collectionsTest/BookLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/collectionsTest/arrayAndLinkedList.java" />
       </list>
     </option>
   </component>
@@ -582,67 +520,15 @@
       <recent name="C:\Users\Abhinav\IdeaProjects\seleniumProjectOne\src\main\java\com\Priyanka\webDrivers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.testArrayListAddAll">
-    <configuration default="false" name="CircularQueueTest.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.Priyanka.dataStructuresTest.simpleSortingTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="seleniumProjectOne" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.Priyanka.dataStructuresTest.simpleSortingTest" />
-      <option name="MAIN_CLASS_NAME" value="com.Priyanka.dataStructuresTest.simpleSortingTest.CircularQueueTest" />
-      <option name="METHOD_NAME" value="testInsert" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="CircularQueueTest.testCircularQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.Priyanka.dataStructuresTest.simpleSortingTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="seleniumProjectOne" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.Priyanka.dataStructuresTest.simpleSortingTest" />
-      <option name="MAIN_CLASS_NAME" value="com.Priyanka.dataStructuresTest.simpleSortingTest.CircularQueueTest" />
-      <option name="METHOD_NAME" value="testCircularQueue" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="testArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.arrayAndLinkedList">
+    <configuration default="false" name="testRetainAll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.Priyanka.dataStructuresTest.collectionsTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.Priyanka.dataStructuresTest.collectionsTest.testArrayList" />
+      <option name="MAIN_CLASS_NAME" value="com.Priyanka.dataStructuresTest.collectionsTest.testRetainAll" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -655,14 +541,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="StudentArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="BookArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.Priyanka.dataStructuresTest.collectionsTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.Priyanka.dataStructuresTest.collectionsTest.StudentArrayList" />
+      <option name="MAIN_CLASS_NAME" value="com.Priyanka.dataStructuresTest.collectionsTest.BookArrayList" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -675,14 +561,54 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="testArrayListAddAll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="TestLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.Priyanka.dataStructuresTest.collectionsTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.Priyanka.dataStructuresTest.collectionsTest.testArrayListAddAll" />
+      <option name="MAIN_CLASS_NAME" value="com.Priyanka.dataStructuresTest.collectionsTest.TestLinkedList" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="seleniumProjectOne" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="BookLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.Priyanka.dataStructuresTest.collectionsTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.Priyanka.dataStructuresTest.collectionsTest.BookLinkedList" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="seleniumProjectOne" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="arrayAndLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.Priyanka.dataStructuresTest.collectionsTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.Priyanka.dataStructuresTest.collectionsTest.arrayAndLinkedList" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1093,19 +1019,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.CircularQueueTest.testInsert" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CircularQueueTest.testCircularQueue" />
-      <item index="2" class="java.lang.String" itemvalue="Application.testArrayList" />
-      <item index="3" class="java.lang.String" itemvalue="Application.StudentArrayList" />
-      <item index="4" class="java.lang.String" itemvalue="Application.testArrayListAddAll" />
+      <item index="0" class="java.lang.String" itemvalue="Application.testRetainAll" />
+      <item index="1" class="java.lang.String" itemvalue="Application.BookArrayList" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TestLinkedList" />
+      <item index="3" class="java.lang.String" itemvalue="Application.BookLinkedList" />
+      <item index="4" class="java.lang.String" itemvalue="Application.arrayAndLinkedList" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.testArrayListAddAll" />
-        <item index="1" class="java.lang.String" itemvalue="Application.StudentArrayList" />
-        <item index="2" class="java.lang.String" itemvalue="Application.testArrayList" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CircularQueueTest.testCircularQueue" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CircularQueueTest.testInsert" />
+        <item index="0" class="java.lang.String" itemvalue="Application.arrayAndLinkedList" />
+        <item index="1" class="java.lang.String" itemvalue="Application.BookLinkedList" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestLinkedList" />
+        <item index="3" class="java.lang.String" itemvalue="Application.BookArrayList" />
+        <item index="4" class="java.lang.String" itemvalue="Application.testRetainAll" />
       </list>
     </recent_temporary>
   </component>
@@ -1251,73 +1177,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/arraysTest/PersonHighArrayTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/arraysTest/UnorderedArrayTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/simpleSorting/SelectionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/simpleSortingTest/SelectionSortTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/simpleSorting/Personnel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-          <folding>
-            <element signature="e#392#393#0" expanded="false" />
-            <element signature="e#497#498#0" expanded="false" />
-            <element signature="e#532#533#0" expanded="false" />
-            <element signature="e#563#564#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/simpleSorting/InsertionSortObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/simpleSortingTest/InsertionSortObjectTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#345#346#0" expanded="false" />
-            <element signature="e#410#411#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/simpleSortingTest/BubbleSortTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -1692,10 +1551,10 @@
         <state relative-caret-position="810">
           <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
           <folding>
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#543#544#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="false" />
+            <element signature="e#512#513#0" expanded="false" />
+            <element signature="e#543#544#0" expanded="false" />
+            <element signature="e#591#592#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1705,10 +1564,10 @@
         <state relative-caret-position="514">
           <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding>
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
-            <element signature="e#669#670#0" expanded="true" />
-            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="false" />
+            <element signature="e#638#639#0" expanded="false" />
+            <element signature="e#669#670#0" expanded="false" />
+            <element signature="e#719#720#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1758,14 +1617,94 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/collectionsTest/BookArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#336#342#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/collectionsTest/TestLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#285#293#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/collectionsTest/testRetainAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="63" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#273#281#0" expanded="true" />
+            <element signature="e#432#440#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Priyanka/dataStructures/collections/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+          <folding>
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/collectionsTest/testRemoveAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#273#281#0" expanded="true" />
+            <element signature="e#491#499#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/collectionsTest/testArrayListAddAll.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        <state relative-caret-position="259">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#279#287#0" expanded="true" />
             <element signature="e#411#419#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/collectionsTest/BookLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#358#364#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Priyanka/dataStructuresTest/collectionsTest/arrayAndLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#287#295#0" expanded="true" />
+            <element signature="e#517#525#0" expanded="true" />
           </folding>
         </state>
       </provider>
