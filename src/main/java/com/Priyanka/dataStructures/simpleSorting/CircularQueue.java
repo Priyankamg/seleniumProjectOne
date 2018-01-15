@@ -45,6 +45,7 @@ public class CircularQueue {
         if(!isEmpty()) {
             if(front==maxSize && rear>=0)
                 front = 0;
+
             int element = circularQueueArray[front];
             front++;
             numberElements--;
