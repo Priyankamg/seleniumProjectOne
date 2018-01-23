@@ -13,6 +13,7 @@ public class testArrayList {
         arrayList.add("Matt");
         arrayList.add("Tom");
         arrayList.add("Matt");
+        arrayList.add(2, "Sam");
 
         System.out.println("Iteration method 1: ");
         Iterator iterator = arrayList.iterator();
@@ -23,5 +24,7 @@ public class testArrayList {
 
         for(String i: arrayList)
             System.out.println(i);
+
+        System.out.println("Element at Method 4: " + arrayList.get(0));
     }
 }
