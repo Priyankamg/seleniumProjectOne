@@ -42,4 +42,42 @@ public class NodeFirst {
             temp = temp.getNext();
         }
     }
+
+    public Node find(int key) throws Exception {
+        if(!isEmpty()) {
+            Node temp = first;
+            while(temp != null) {
+                if(temp.getiData()==key)
+                    return temp;
+                else
+                    temp = temp.getNext();
+            }
+            throw new Exception(key + " is not found in the Linked List");
+        }
+        throw new Exception("Linked List is empty");
+    }
+
+    public Node deleteAfterFind(int key) throws Exception {
+        if(!isEmpty()) {
+            Node current = first;
+            Node previous = first;
+
+            while(current.getiData() != key) {
+                if(current.getNext()==null)
+                    return null;
+                else {
+                    previous = current;
+                    current = current.getNext();
+                }
+            }
+            if(current==first) {
+                first = first.getNext();
+            } else {
+                previous.setNext(current.getNext());
+            }
+            return current;
+        }
+        throw new Exception("Linked List is empty");
+    }
+
 }
